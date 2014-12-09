@@ -8,7 +8,7 @@ class VersionarController {
 
     	withJGit() { rf ->
 		    pull().call()
-		    def f = new File("configurations/seo_configuration_MCO.json");
+		    def f = new File("configurations/seo_configuration_MLU.json");
 		    f.write(new JsonBuilder(json).toPrettyString())
 		    f.createNewFile()
 		    
