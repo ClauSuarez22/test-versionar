@@ -1,4 +1,4 @@
-import groovy.json.*
+import groovy.json.JsonBuilder
 
 class VersionarController {
 
@@ -8,16 +8,13 @@ class VersionarController {
 
     	withJGit() { rf ->
 		    pull().call()
-		    def f = new File(rf,"/configurations")
-		    f.createNewFile();
+		    def f = new File("seo_configuration_MLA.json");
 		    f.write(new JsonBuilder(json).toPrettyString())
-		    f.renameTo("seo_configuration_MCO.json")
+		    f.createNewFile()
 		    
 		    // Relative path
 		    add().addFilepattern(f.name).call()
-		    if(!status().call().isClean()) {
-		        commit().setMessage("Versionando MCO").call()
-		    }
+		    commit().setMessage("Versionando MCO").call()
 		    push().call()
 		    pull().call()
 		}

@@ -12,7 +12,7 @@ class UrlMappings {
 
 		"/test"(controller: "versionar") {
             action=[
-                GET : 'test'
+                POST : 'test'
             ]
         }
 	}
