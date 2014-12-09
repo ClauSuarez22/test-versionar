@@ -1,0 +1,81 @@
+{
+  "MCR": {
+    "goal-desc": "Oportunidad en _CATEG_! más de _COUNT_ ofertas a excelentes precios en MercadoLibre Costa Rica: _RS_",
+    "h1": "legacy",
+    "description": {
+      "ending": "",
+      "hints": [
+        {
+          "prefix": "Oportunidad en ",
+          "variable": "title"
+        },
+        {
+          "prefix": "! Más de ",
+          "suffix": " ofertas a excelentes precios en MercadoLibre Costa Rica",
+          "variable": "result_count"
+        },
+        {
+          "prefix": ": ",
+          "variable": "related_searches"
+        }
+      ]
+    }
+  },
+  "MCR1459":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+},
+"MCR1540":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+},
+  "MCR1743":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá más de ",
+          "suffix": " ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+}
+}

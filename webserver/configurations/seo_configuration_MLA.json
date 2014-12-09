@@ -1,0 +1,374 @@
+{ 
+"MLA": {  
+      "L2-goal-desc": "Oportunidad en _CATEG_! más de _COUNT_ ofertas a excelentes precios en MercadoLibre Argentina: _RS_",
+
+
+ "local":{
+"h1":"legacy",
+            "description": {
+"ending":"",
+                "hints": [
+                    { "prefix": "Oportunidad en ", "variable": "title" },
+                    { "prefix": "! Más de ", "suffix":" ofertas a excelentes precios en MercadoLibre Argentina", "variable": "result_count" },
+                    { "prefix": ": ", "variable": "related_searches" }
+                    ]
+            }
+ },
+
+ "child":{
+"h1":"legacy",
+            "description": {
+"ending":"",
+                "hints": [
+                    { "prefix": "Oportunidad en ", "variable": "title" },
+                    { "prefix": "! Más de ", "suffix":" ofertas a excelentes precios en MercadoLibre Argentina", "variable": "result_count" },
+                    { "prefix": ": ", "variable": "related_searches" }
+                    ]
+            }
+ }
+},
+"MLA1055": {  
+      
+      "L2-goal-desc": "Los mejores precios en Teléfonos Celulares están en Mercadolibre Argentina. Todas las marcas y modelos como Galaxy S4, Iphone, Galaxy S3 Mini en panama, colon",
+
+      "L2-brand-key-goal-desc": "Todos los modelos de L2 L3 al mejor precio: Relatad Searches y mucho mas, en Mercadolibre Argentina",
+
+      "L2-brand-key-goal-H1": "Celulares MARCA",
+
+      "L2-model-key-goal-desc": "Compra ahora tu Samsung S4 al mejor precio. Tenemos más de 4324 Telefonos Celulares Samsung S4 nuevos y usados con envío gratis en Mercadolibre Argentina",
+
+      "L2-model-brand-key-goal-title": "Sacar del title el prefijo TELEFONOS CELULARES",
+
+ "local":{
+  "title":{
+"suffix":" y Smartphones al mejor precio"
+},
+"h1":{
+  "suffix":" en Oferta"
+},
+            "description": {
+                "hints": [
+                    { "prefix": "Los mejores precios en ", "suffix": " están en MercadoLibre Argentina. ",  "variable": "title"},
+                    { "prefix":"Todas las marcas y modelos ", "variable": "available_filters"}
+                    ],
+                    "ending":""
+            }
+ },
+ "child":{
+                          "description": {
+              "attributes": { "state": { "replacement": "", "connector": "" }},
+                              "hints": [
+                                  { "prefix": "Los mejores precios en  ", "variable": "title" },
+                                  { "prefix": " están en MercadoLibre Argentina. Compra ahora ", "variable": "related_searches"}
+                                  ],
+              "ending":""
+                          }
+               },
+     "filters": [
+        {
+            "key": {
+                "9991055-AMLA_1055_1": "*",
+                "9991055-AMLA_1055_2": "*"
+            },
+"categories":{
+"MLA1055":{
+"replacement":""
+}
+},
+              "title": { 
+              "suffix":": Celulares al mejor precio en Oferta"
+                }
+            }
+
+                    ]
+},
+"MLA1039": {  
+      
+      "L2-goal-desc": "Los mejores precios en _CATEG_ están en Mercadolibre Argentina. Todas las marcas y modelos como _RS_ en _AVAILABLE_FILTERS_",
+
+ "local":{
+            "description": {
+                "hints": [
+                    { "prefix": "Los mejores precios en ", "suffix": " están en MercadoLibre Argentina. ",  "variable": "title"},
+                    { "prefix":"Todas las marcas y modelos ", "variable": "available_filters"}
+                    ],
+                    "ending":""
+            }
+ },
+
+ "child":{
+            "description": {
+"attributes": { "state": { "replacement": "", "connector": "" }},
+                "hints": [
+                    { "prefix": "Los mejores precios en  ", "variable": "title" },
+                    { "prefix": " están en MercadoLibre Argentina. Compra ahora ", "variable": "related_searches"}
+                    ],
+"ending":""
+            }
+}
+},
+"MLA1743":{
+  "local":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá más de ",
+          "suffix": " ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    },
+  "child":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá más de ",
+          "suffix": " ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    }
+},
+  "MLA1459":{
+  "local":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    },
+    "child":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    }
+},
+"MLA1540":{
+  "local":{
+  "h1":"legacy",
+    "description": {
+      "ending":" - MercadoLibre Argentina",
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    },
+    "child":{
+  "h1":"legacy",
+    "description": {
+      "ending":" - MercadoLibre Argentina",
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    }
+},
+  "MLA85808": {
+    "categories": {
+      "MLA8531": {
+        "replacement": "tu auto",
+        "connector": "para"
+      },
+      "MLA49337": {
+        "replacement": "",
+        "connector": ""
+      },
+      "MLA85808": {
+        "replacement": "GPS TomTom",
+        "connector": ""
+      }
+    },
+    "h1": {
+      "first_category_level": 3
+    },
+    "description": {
+      "hints": [
+        {
+          "variable": "result_count",
+          "prefix": "Más de ",
+          "suffix": " GPS TomTom Via 1430, 1530, 1600, Start y XXL / XL310, XL355, Live y otros! Compra tu GPS TomTom con mapas y radares actualizados"
+        }
+      ]
+    }
+  },
+"MLA1648": {  
+      "L1-goal-desc": "Más de 167956 ofertas en Computación: Encuentra lo mejor de Componentes de PC, PC o Notebooks con Envío Gratis comprando online - MercadoLibre Argentina",
+      
+      "L1-temp-desc": "Más de 159930 ofertas en Computación: asus, cpu usadas, dell, grabadora dvd o memoria ddr2 con Envío gratis comprando online - MercadoLibre Argentina",
+
+      "L2-goal-desc": "Ofertas en PC: Encuentra computadoras de escritorio nuevas, gamer, cpu, usadas, pc o intel. Sin Monitor, Con Monitor y Otros - MercadoLibre Argentina",
+      
+      "L3-goal-desc": "Ofertas en PC Intel Core i5: Encuentra más de 179 artículos Intel Core i5. Sin Monitor, Con Monitor y Otros - MercadoLibre Argentina",
+
+      "L2-L3-temp-desc": "Ofertas en Componentes de PC: Encuentra capturadora usb, gabinete, grabadora dvd, lectora de o pc al mejor precio - MercadoLibre Argentina",
+
+ "local":{
+            "description": {
+"attributes": { "state": { "replacement": "", "connector": "" }},
+                "hints": [
+                    { "prefix": "Más de ", "variable": "result_count", "suffix": " ofertas en "},
+                    { "suffix": ": ", "variable": "title" },
+                    { "suffix":" con Envío gratis comprando online", "variable": "related_searches"}
+                    ]
+            }
+ },
+ "child":{
+            "description": {
+"attributes": { "state": { "replacement": "", "connector": "" }},
+                "hints": [
+                    { "prefix": "Ofertas en ", "variable": "title" },
+                    { "prefix": ": Encuentra ", "suffix":" al mejor precio", "variable": "related_searches"}
+                    ]
+            }
+ }
+},
+  "MLA1744": {
+    "local": {
+"title":{
+"suffix":": 0km y Usados en Oferta"
+}
+},
+   "filters": [
+        {
+            "key": {
+                "9991744-AMLA_1744_1": "*"
+            },
+"categories":{
+"MLA1744":{
+"replacement":""
+}
+},
+            "title":{
+            "suffix":": Autos y Camionetas"
+            }
+            },
+        {
+            "key": {
+                "9991744-AMLA_1744_1": "*",
+                "9991744-AMLA_1744_2": "*"
+            },
+
+"categories":{
+"MLA1744":{
+"replacement":""
+}
+},
+            "title":{
+            "suffix":" en Oferta"
+            }
+            }
+
+                    ] 
+},
+
+
+
+
+  "MLA109027": {
+"title":{
+"suffix":" al mejor precio: Ofertas en Calzado"
+},
+   "filters": [
+        {
+            "key": {
+                "999109027-AMLA_109027_2": "*"
+            },
+            "title":{
+
+            },
+              "h1": { 
+
+                }
+            },
+        {
+            "key": {
+                "999109027-AMLA_109027_1": "*"
+            },
+            "title":{
+
+            },
+              "h1": { 
+
+                }
+            },
+        {
+            "key": {
+                "999109027-AMLA_109027_3": "*"
+            },
+            "title":{
+
+            },
+              "h1": { 
+
+                }
+            }
+
+                    ] 
+  }
+}
