@@ -120,7 +120,7 @@
         "description": {
             "seller": {
                 "concat": true,
-                "suffix": " "
+                "suffix": "hola"
             }
         },
         "h1": {
