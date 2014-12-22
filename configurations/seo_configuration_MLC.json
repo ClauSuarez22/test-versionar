@@ -1,0 +1,228 @@
+{ 
+"MLC": {  
+      "L2-goal-desc": "Oportunidad en _CATEG_! más de _COUNT_ ofertas a excelentes precios en MercadoLibre Chile: _RS_",
+
+
+ "local":{
+"h1":"legacy",
+            "description": {
+"ending":"",
+                "hints": [
+                    { "prefix": "Oportunidad en ", "variable": "title" },
+                    { "prefix": "! Más de ", "suffix":" ofertas a excelentes precios en MercadoLibre Chile", "variable": "result_count" },
+                    { "prefix": ": ", "variable": "related_searches" }
+                    ]
+            }
+ },
+
+ "child":{
+"h1":"legacy",
+            "description": {
+"ending":"",
+                "hints": [
+                    { "prefix": "Oportunidad en ", "variable": "title" },
+                    { "prefix": "! Más de ", "suffix":" ofertas a excelentes precios en MercadoLibre Chile", "variable": "result_count" },
+                    { "prefix": ": ", "variable": "related_searches" }
+                    ]
+            }
+ }
+},
+"MLC1055": {  
+      
+      "L2-goal-desc": "Los mejores precios en Teléfonos Celulares están en Mercadolibre Chile. Todas las marcas y modelos como Galaxy S4, Iphone, Galaxy S3 Mini en panama, colon",
+
+      "L2-brand-key-goal-desc": "Todos los modelos de L2 L3 al mejor precio: Relatad Searches y mucho mas, en Mercadolibre Chile",
+
+      "L2-brand-key-goal-H1": "Celulares MARCA",
+
+      "L2-model-key-goal-desc": "Compra ahora tu Samsung S4 al mejor precio. Tenemos más de 4324 Telefonos Celulares Samsung S4 nuevos y usados con envío gratis en Mercadolibre Chile",
+
+      "L2-model-brand-key-goal-title": "Sacar del title el prefijo TELEFONOS CELULARES",
+
+ "local":{
+            "description": {
+                "hints": [
+                    { "prefix": "Los mejores precios en ", "suffix": " están en MercadoLibre Chile. ",  "variable": "title"},
+                    { "prefix":"Todas las marcas y modelos ", "variable": "available_filters"}
+                    ],
+                    "ending":""
+            }
+ },
+
+ "child":{
+            "description": {
+"attributes": { "state": { "replacement": "", "connector": "" }},
+                "hints": [
+                    { "prefix": "Los mejores precios en  ", "variable": "title" },
+                    { "prefix": " están en MercadoLibre Chile. Compra ahora ", "variable": "related_searches"}
+                    ],
+"ending":""
+            },
+            "categories":
+            { "MLC1055":
+                 {
+                   "replacement": "Celulares "
+                 }
+ },
+   "filters": [
+        {
+            "key": {
+                "9991055-AMLC_1055_1": "*"
+            },
+            "categories": { "MLC1055": { "replacement": "Celulares "} },
+            "description": {
+                "hints": [
+                    { "prefix": "Todos los modelos de ", "variable": "title" },
+{ "prefix": " al mejor precio: ", "suffix":" y mucho más en MercadoLibre Chile.", "variable": "related_searches"}
+                    ]
+            }
+        }
+        ]
+ }
+},
+"MLC1039": {  
+      
+      "L2-goal-desc": "Los mejores precios en _CATEG_ están en Mercadolibre Chile. Todas las marcas y modelos como _RS_ en _AVAILABLE_FILTERS_",
+
+ "local":{
+            "description": {
+                "hints": [
+                    { "prefix": "Los mejores precios en ", "suffix": " están en MercadoLibre Chile. ",  "variable": "title"},
+                    { "prefix":"Todas las marcas y modelos ", "variable": "available_filters"}
+                    ],
+                    "ending":""
+            }
+ },
+
+ "child":{
+            "description": {
+"attributes": { "state": { "replacement": "", "connector": "" }},
+                "hints": [
+                    { "prefix": "Los mejores precios en  ", "variable": "title" },
+                    { "prefix": " están en MercadoLibre Chile. Compra ahora ", "variable": "related_searches"}
+                    ],
+"ending":""
+            }
+}
+},
+"MLC1743":{
+  "local":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá más de ",
+          "suffix": " ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    },
+  "child":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá más de ",
+          "suffix": " ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    }
+},
+  "MLC1459":{
+  "local":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    },
+    "child":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    }
+},
+"MLC1540":{
+  "local":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    },
+    "child":{
+  "h1":"legacy",
+    "description": {
+      "hints": [
+        {
+          "prefix": "Encontrá ",
+          "suffix": " publicaciones para ",
+          "variable": "result_count"
+
+        },
+        {
+          "variable": "title"
+        },
+        {
+          "variable": "available_filters"
+        }
+      ]
+    }
+    }
+}
+}
