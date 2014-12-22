@@ -7,14 +7,17 @@ class VersionarController {
     	def json = request.JSON;
 
     	withJGit() { rf ->
+    		println "pathh: " + rf.path
 		    pull().call()
-		    def f = new File("configurations/seo_configuration_MLU.json");
-		    f.write(new JsonBuilder(json).toPrettyString())
+		    def f = new File(rf,"test.txt")
 		    f.createNewFile()
-		    
 		    // Relative path
 		    add().addFilepattern(f.name).call()
-		    commit().setMessage("Versionando MCO1").call()
+		    if(!status().call().isClean()) {
+		        commit().setMessage("some comment").call();
+                
+		    }
+            
 		    push().call()
 		    pull().call()
 		}
