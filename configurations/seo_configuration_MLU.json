@@ -1,304 +1,80 @@
 {
-  "MLA1367": {
-    "h1": {
-      "suffix": " en ofertaa"
-    },
-    "info": "antiguedades de prueba"
-  },
-  "MLA3728": {
-    "local": {
-      "h1": {
-        "categories": {
-          "MLA3728": {
-            "replacement": "Clubes del Ascenso"
-          }
-        }
-      }
-    }
-  },
-  "MLA73721": {
-    "local": {
-      "categories": {
-        "MLA73721": {
-          "replacement": "Otros Souvenirs hola holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaañññaá",
-          "connector": "para"
-        }
-      },
-      "info": "Config Otros Souvenirs Cumpleaños Infantiles"
-    }
-  },
-  "MLA7076": {
-    "local": {
-      "categories": {
-        "MLA1055": {
-          "replacement": "Celulares"
-        }
-      },
-      "h1": {
-        "first_category_level": 2
-      }
-    },
-    "info": "Config para MARCA -- Celulares + LG"
-  },
-  "MLA34330": {
+  "MLU1451": {
     "child": {
-      "category_order": "descendent",
-      "categories": {
-        "MLA34330": {
-          "connector": "para"
-        }
-      },
-      "first_category_level": 3,
-      "h1": {
-        "categories": {
-          "MLA34330": {
-            "replacement": "15 años",
-            "connector": "para"
-          }
-        }
-      }
-    },
-    "local": {
       "title": {
-        "suffix": " originales y personalizados",
-        "ending": " en MercadoLibre"
+        "prefix": "¡",
+        "suffix": " al mejor precio!"
       },
-      "category_order": "ascendent",
-      "categories": {
-        "MLA10056": {
-          "replacement": "Souvenirs de"
-        }
-      },
-      "first_category_level": 2,
-      "h1": {
-        "categories": {
-          "MLA34330": {
-            "replacement": "15 años"
-          }
-        }
-      },
-      "info": "Config Souvenirs 15 años MLA"
-    }
-  },
-  "MLA1246": {
-    "local": {
       "description": {
         "hints": [
           {
-            "prefix": "LECHE ",
-            "suffix": " al mejor precio... ",
+            "prefix": "¡Llegó la Moda a MercadoLibre! Encontrá los mejores precios en ",
+            "suffix": ".",
             "variable": "title"
           },
           {
-            "prefix": " aca van las related: ",
-            "variable": "related_searches"
+            "prefix": " Más de ",
+            "suffix": " ofertas te están esperando en MercadoLibre Uruguay.",
+            "variable": "result_count"
           }
         ],
-        "variable": "",
-        "ending": "Adri"
-      }
-    }
-  },
-  "MLA6321": {
-    "local": {
-      "title": {
-        "first_category_level": 4,
-        "suffix": ", los más traviesos: tené el tuyo!"
+        "ending": ""
       },
-      "h1": {
-        "first_category_level": 4
-      },
-      "info": "Config Beagles MLA"
-    }
-  },
-  "MLA125124": {
-    "description": {
-      "hints": [
-        {
-          "text": "Reproduce tu música, fotos, series y películas favoritas en tu TV: Compra ahora tu Apple TV al mejor precio en MercadoLibre Argentina"
-        }
-      ]
-    },
-    "info": "Apple TV"
-  },
-  "MLA4231": {
-    "local": {
-      "categories": {
-        "MLA1055": {
-          "replacement": "Celulares"
-        }
-      },
-      "h1": {
-        "first_category_level": 2
-      }
-    },
-    "info": "Config para MARCA -- Celulares + Motorola"
-  },
-  "MLA6034": {
-    "local": {
       "category_order": "ascendent",
-      "categories": {
-        "MLA1285": {
-          "connector": "de"
-        },
-        "MLA6034": {
-          "replacement": "Clubes de Primera División"
-        }
-      },
       "first_category_level": 3,
-      "h1": {
-        "categories": {
-          "MLA6034": {
-            "replacement": "Clubes de Primera"
-          }
-        }
-      }
+      "info": "Configs para Childs de Indumentaria"
     },
-    "info": "Config para Clubes Nacionales de Primera"
-  },
-  "MLA3090": {
     "local": {
       "title": {
-        "categories": {
-          "MLA1285": {
-            "connector": "de"
-          }
-        },
-        "first_category_level": 2,
-        "suffix": ": Para césped, sintético o parqué",
+        "suffix": " al mejor precio en MercadoLibre Uruguay!",
         "ending": ""
       },
-      "h1": {
-        "categories": {
-          "MLA1285": {
-            "connector": "de"
+      "description": {
+        "hints": [
+          {
+            "prefix": "Todas las marcas de ropa llegaron a MercadoLibre! Mas de ",
+            "suffix": " ofertas ",
+            "variable": "result_count"
+          },
+          {
+            "prefix": "en ",
+            "suffix": " para todas las edades: ",
+            "variable": "title"
+          },
+          {
+            "variable": "available_categories",
+            "first_connector": " "
           }
-        },
-        "first_category_level": 2
-      }
-    },
-    "info": "Config para Botines"
-  },
-  "MLA1073": {
-    "child": {
-      "title": {
-        "first_category_level": 4,
-        "suffix": ": Perros y cachorros"
-      },
-      "h1": {
-        "prefix": "Perros ",
-        "category_order": "ascendent",
-        "first_category_level": 4
-      }
-    },
-    "local": {
-      "title": {
-        "categories": {
-          "MLA1073": {
-            "replacement": "Perros y cachorros"
-          }
-        },
-        "suffix": " de todas las razas en Mercadolibre: encontrá el tuyo!",
+        ],
         "ending": ""
-      },
-      "h1": {
-        "categories": {
-          "MLA1073": {
-            "replacement": "Perros y Cachorros"
-          }
-        }
-      },
-      "info": "Config Perros de Raza MLA"
-    }
-  },
-  "MLA9724": {
-    "metacategories": {
-      "partial_replacement": [
-        "BlackBerry",
-        ""
-      ]
-    },
-    "local": {
-      "categories": {
-        "MLA1055": {
-          "replacement": "Celulares"
-        }
-      },
-      "h1": {
-        "first_category_level": 2
       }
     },
     "h1": {
       "autogenerated": false
     },
-    "info": "Config para MARCA -- Celulares + Blackberry"
+    "info": "Config para Indumentaria y Accesorios"
   },
-  "MLA10056": {
+  "MLU158361": {
     "child": {
-      "category_order": "ascendent",
       "categories": {
-        "MLA10056": {
-          "replacement": "Souvenirs para"
-        }
-      },
-      "first_category_level": 2,
-      "h1": {
-        "autogenerated": false,
-        "categories": {
-          "MLA10056": {
-            "replacement": "Souvenirs para"
-          }
+        "MLU158361": {
+          "replacement": "Enteritos de "
         }
       }
     },
-    "local": {
-      "title": {
-        "suffix": " para tu casamiento, bautismo y más!"
-      }
-    },
-    "info": "Config Souvenirs MLA"
+    "info": "Config Enteritos"
   },
-  "MLA1072": {
-    "local": {
-      "title": {
-        "suffix": ": los más lindos"
-      },
-      "info": "Config Perros MLA"
-    }
-  },
-  "MLA3506": {
-    "local": {
+  "MLU1456": {
+    "child": {
       "categories": {
-        "MLA1055": {
-          "replacement": "Celulares"
+        "MLU1456": {
+          "replacement": "Lentes de"
         }
-      },
-      "h1": {
-        "first_category_level": 2
       }
     },
-    "info": "Config para MARCA -- Celulares + Nokia"
+    "info": "Config para Lentes"
   },
-  "MLA1071": {
-    "local": {
-      "title": {
-        "suffix": ": todo para tu compañero doméstico "
-      }
-    },
-    "info": "Config Animales y Mascotas MLA"
-  },
-  "MLA73704": {
-    "local": {
-      "categories": {
-        "MLA73704": {
-          "replacement": "Otros Souvenirs",
-          "connector": "para"
-        }
-      },
-      "info": "Config Otros Souvenirs 15 años"
-    }
-  },
-  "MLA1540": {
+  "MLU1540": {
     "child": {
       "description": {
         "hints": [
@@ -313,12 +89,9 @@
           {
             "variable": "available_filters"
           }
-        ],
-        "ending": " - MercadoLibre Argentina"
+        ]
       },
-      "h1": {
-        "autogenerated": true
-      }
+      "h1": "legacy"
     },
     "local": {
       "description": {
@@ -334,251 +107,64 @@
           {
             "variable": "available_filters"
           }
-        ],
-        "ending": " - MercadoLibre Argentina"
+        ]
       },
-      "h1": {
-        "autogenerated": true
-      }
+      "h1": "legacy"
     }
   },
-  "MLA3526": {
-    "local": {
-      "categories": {
-        "MLA1055": {
-          "replacement": "Celulares de"
-        }
-      },
-      "h1": {
-        "first_category_level": 2
-      }
-    },
-    "info": "Config para MARCA -- Celulares + Otras Marcas"
-  },
-  "MLA47816": {
-    "title": {
-      "prefix": "Pelotas de Fútbol 11: ",
-      "category_order": "ascendent",
-      "first_category_level": 3
-    },
-    "h1": {
-      "categories": {
-        "MLA1285": {
-          "connector": "de"
-        },
-        "MLA47816": {
-          "replacement": ""
-        }
-      },
-      "first_category_level": 2,
-      "suffix": " 11"
-    },
-    "info": "Config para Pelotas de Futbol 5"
-  },
-  "MLA30151": {
-    "local": {
-      "categories": {
-        "MLA1055": {
-          "replacement": "Celulares"
-        }
-      },
-      "h1": {
-        "first_category_level": 2
-      }
-    },
-    "info": "Config para MARCA -- Celulares + HTC"
-  },
-  "MLA1039": {
-    "child": {
-      "description": {
-        "hints": [
-          {
-            "prefix": "Los mejores precios en  ",
-            "variable": "title"
-          },
-          {
-            "prefix": " están en MercadoLibre Argentina. Compra ahora ",
-            "variable": "related_searches"
-          }
-        ],
-        "attributes": {
-          "state": {
-            "replacement": "",
-            "connector": ""
+  "MLU158366": {
+    "filters": [
+      {
+        "metacategories": {
+          "999158366-AMLU_158366_2": {
+            "replacement": "de Hombre"
           }
         },
-        "ending": ""
-      }
-    },
-    "local": {
-      "description": {
-        "hints": [
-          {
-            "prefix": "Los mejores precios en ",
-            "suffix": " están en MercadoLibre Argentina. ",
-            "variable": "title"
-          },
-          {
-            "prefix": "Todas las marcas y modelos ",
-            "variable": "available_filters"
-          }
-        ],
-        "ending": ""
-      }
-    }
-  },
-  "MLA10168": {
-    "local": {
-      "categories": {
-        "MLA1055": {
-          "replacement": "Celulares"
-        }
-      },
-      "h1": {
-        "first_category_level": 2
-      }
-    },
-    "info": "Config para MARCA -- Celulares + Palm Treo"
-  },
-  "MLA3018": {
-    "child": {
-      "title": {
-        "category_order": "ascendent",
-        "first_category_level": 2,
-        "ending": "en MercadoLibre"
-      },
-      "h1": {
-        "category_order": "ascendent",
-        "first_category_level": 2
-      }
-    },
-    "info": "Config para MARCAS de bajos"
-  },
-  "MLA": {
-    "local": {
-      "category_order": "descendent",
-      "categories": {
-        "MLA1285": {
-          "connector": "de"
+        "key": {
+          "999158366-AMLU_158366_1": "*",
+          "999158366-AMLU_158366_2": "999158366-AMLU_158366_2-MMLU49420"
         },
-        "MLA6034": {
-          "replacement": ""
-        }
+        "info": "Config para Hombre"
       },
-      "first_category_level": 2,
-      "h1": {
-        "suffix": " de Clubes de Primera"
-      },
-      "suffix": " de Clubes de Primera División",
-      "ending": ""
-    }
-  },
-  "MLA1055": {
-    "child": {
-      "title": {
-        "suffix": " al mejor precio"
-      },
-      "description": {
-        "hints": [
-          {
-            "prefix": "Los mejores precios en ",
-            "variable": "title"
-          },
-          {
-            "prefix": " están en MercadoLibre: Compra ahora ",
-            "variable": "related_searches"
-          }
-        ],
-        "attributes": {
-          "state": {
-            "replacement": "",
-            "connector": ""
+      {
+        "metacategories": {
+          "999158366-AMLU_158366_2": {
+            "replacement": "de Mujer"
           }
         },
-        "ending": ""
+        "key": {
+          "999158366-AMLU_158366_1": "*",
+          "999158366-AMLU_158366_2": "999158366-AMLU_158366_2-MMLU49421"
+        },
+        "info": "Config para Mujer"
       },
-      "category_order": "ascendent",
-      "categories": {
-        "MLA1055": {
-          "replacement": ""
-        }
-      }
-    },
-    "metacategories": {
-      "partial_replacement": [
-        "BlackBerry",
-        ""
-      ]
-    },
-    "local": {
-      "title": {
-        "suffix": " en Oferta al mejor precio"
-      },
-      "description": {
-        "hints": [
-          {
-            "prefix": "Los mejores precios en ",
-            "suffix": " están en MercadoLibre: ",
-            "variable": "title"
-          },
-          {
-            "prefix": "todas las marcas y modelos ",
-            "variable": "available_filters"
-          }
-        ],
-        "ending": ""
-      },
-      "h1": {
-        "suffix": " en Oferta"
-      }
-    },
-    "info": "Config para Celulares"
-  },
-  "MLA1287": {
-    "child": {
-      "categories": {
-        "MLA1285": {
-          "connector": "de"
-        }
-      }
-    },
-    "local": {
-      "title": {
-        "categories": {
-          "MLA1285": {
-            "connector": "de"
+      {
+        "metacategories": {
+          "999158366-AMLU_158366_2": {
+            "replacement": "de Niñas"
           }
         },
-        "first_category_level": 2,
-        "suffix": " en Oferta: Adidas, Nike y más!",
-        "ending": ""
+        "key": {
+          "999158366-AMLU_158366_1": "*",
+          "999158366-AMLU_158366_2": "999158366-AMLU_158366_2-MMLU49422"
+        },
+        "info": "Config para Niñas"
       },
-      "h1": {
-        "categories": {
-          "MLA1285": {
-            "connector": "de"
+      {
+        "metacategories": {
+          "999158366-AMLU_158366_2": {
+            "replacement": "de Niños"
           }
         },
-        "first_category_level": 2
+        "key": {
+          "999158366-AMLU_158366_1": "*",
+          "999158366-AMLU_158366_2": "999158366-AMLU_158366_2-MMLU49423"
+        }
       }
-    },
-    "info": "Config para Pelotas"
+    ],
+    "info": "Config para Pantalones, Jeans y Joggins"
   },
-  "MLA34327": {
-    "title": {
-      "suffix": ": Jaboncitos, zapatitos y más!",
-      "ending": ""
-    },
-    "info": "Config Souvenirs Nacimientos"
-  },
-  "MLA34326": {
-    "local": {
-      "title": {
-        "category_order": "ascendent"
-      }
-    }
-  },
-  "MLA1459": {
+  "MLU1459": {
     "description": {
       "autogenerated": true,
       "seller": {
@@ -591,7 +177,7 @@
     },
     "category_order": "ascendent",
     "metacategories": {
-      "9991459-AMLA_1459_2": {
+      "9991459-AMLU_1459_2": {
         "connector": "en"
       }
     },
@@ -610,133 +196,13 @@
         "name": "solo operacion",
         "prefix": "Inmuebles en ",
         "key": {
-          "9991459-AMLA_1459_2": "*"
+          "9991459-AMLU_1459_2": "*"
         }
       }
     ],
-    "ending": " en MercadoLibre Argentina"
+    "ending": " en MercadoLibre Uruguay"
   },
-  "MLA109027": {
-    "title": {
-      "suffix": " al mejor precio: Ofertas en Calzado"
-    },
-    "filters": [
-      {
-        "h1": {
-          "autogenerated": false
-        },
-        "key": {
-          "999109027-AMLA_109027_1": "*"
-        }
-      },
-      {
-        "h1": {
-          "autogenerated": false
-        },
-        "key": {
-          "999109027-AMLA_109027_2": "*"
-        }
-      },
-      {
-        "h1": {
-          "autogenerated": false
-        },
-        "key": {
-          "999109027-AMLA_109027_3": "*"
-        }
-      }
-    ]
-  },
-  "MLA1285": {
-    "child": {
-      "categories": {
-        "MLA1285": {
-          "connector": "de"
-        }
-      },
-      "first_category_level": 2
-    },
-    "local": {
-      "title": {
-        "suffix": ": Camisetas, botines y más",
-        "ending": " en Mercadolibre"
-      }
-    },
-    "info": "Config para Fútbol"
-  },
-  "MLA34329": {
-    "title": {
-      "suffix": ": Personalizados para Eventos",
-      "ending": ""
-    },
-    "category_order": "ascendent",
-    "categories": {
-      "MLA10056": {
-        "replacement": "Souvenirs"
-      }
-    },
-    "first_category_level": 2,
-    "h1": {
-      "categories": {
-        "MLA34329": {
-          "replacement": "Souvenirs Empresariales"
-        }
-      },
-      "first_category_level": 3
-    },
-    "info": "Config Souvenirs Empresariales MLA"
-  },
-  "MLA1286": {
-    "child": {
-      "category_order": "ascendent",
-      "categories": {
-        "MLA1286": {
-          "replacement": "Camisetas de Fútbol: "
-        }
-      },
-      "first_category_level": 3,
-      "info": "Config para Childs de Camisetas"
-    },
-    "local": {
-      "title": {
-        "categories": {
-          "MLA1285": {
-            "connector": "de"
-          }
-        },
-        "first_category_level": 2,
-        "suffix": ": Clubes y Selecciones",
-        "ending": " en Mercadolibre"
-      },
-      "h1": {
-        "categories": {
-          "MLA1285": {
-            "connector": "de"
-          }
-        },
-        "first_category_level": 2
-      }
-    },
-    "info": "Config para Camisetas"
-  },
-  "MLA47771": {
-    "local": {
-      "title": {
-        "prefix": "Pelotas de Papi Fútbol: ",
-        "first_category_level": 4
-      },
-      "h1": {
-        "category_order": "ascendent",
-        "categories": {
-          "MLA47771": {
-            "replacement": " de Papi Fútbol"
-          }
-        },
-        "first_category_level": 3
-      }
-    }
-  },
-  "MLA1743": {
+  "MLU1743": {
     "child": {
       "description": {
         "hints": [
@@ -753,9 +219,7 @@
           }
         ]
       },
-      "h1": {
-        "autogenerated": true
-      }
+      "h1": "legacy"
     },
     "local": {
       "description": {
@@ -773,330 +237,1081 @@
           }
         ]
       },
-      "h1": {
-        "autogenerated": true
-      }
+      "h1": "legacy"
     }
   },
-  "MLA1648": {
+  "MLU158309": {
     "child": {
-      "description": {
-        "hints": [
-          {
-            "prefix": "Ofertas en ",
-            "variable": "title"
-          },
-          {
-            "prefix": ": Encuentra ",
-            "suffix": " al mejor precio",
-            "variable": "related_searches"
-          }
-        ],
-        "attributes": {
-          "state": {
-            "replacement": "",
-            "connector": ""
-          }
-        }
-      }
-    },
-    "local": {
-      "description": {
-        "hints": [
-          {
-            "prefix": "Más de ",
-            "suffix": " ofertas en ",
-            "variable": "result_count"
-          },
-          {
-            "suffix": ": ",
-            "variable": "title"
-          },
-          {
-            "suffix": " con Envío gratis comprando online",
-            "variable": "related_searches"
-          }
-        ],
-        "attributes": {
-          "state": {
-            "replacement": "",
-            "connector": ""
-          }
-        }
-      }
-    }
-  },
-  "MLA32089": {
-    "local": {
-      "title": {
-        "suffix": ": todos los modelos de Apple iPhone en Oferta"
-      },
-      "h1": {
-        "first_category_level": 2
-      }
-    },
-    "filters": [
-      {
-        "description": {
-          "hints": [
-            {
-              "text": "El nuevo iPhone 6 llegó a MercadoLibre! Compra ahora tu iPhone 6, el último smartphone de Apple al mejor precio"
-            }
-          ],
-          "ending": ""
-        },
-        "key": {
-          "99932089-AMLA_32089_1": "99932089-AMLA_32089_1-MMLA44806"
-        },
-        "info": "iPhone 6"
-      },
-      {
-        "description": {
-          "hints": [
-            {
-              "text": "El nuevo iPhone 6 Plus llegó a MercadoLibre! Compra ahora tu iPhone 6 Plus, el último smartphone de Apple al mejor precio"
-            }
-          ],
-          "ending": ""
-        },
-        "key": {
-          "99932089-AMLA_32089_1": "99932089-AMLA_32089_1-MMLA44807"
-        },
-        "info": "iPhone 6 Plus"
-      },
-      {
-        "description": {
-          "hints": [
-            {
-              "text": "El nuevo iPhone 6 16GB llegó a MercadoLibre! Compra ahora tu iPhone 6 de 16GB, el último smartphone de Apple al mejor precio"
-            }
-          ],
-          "ending": ""
-        },
-        "key": {
-          "99932089-AMLA_32089_2": "99932089-AMLA_32089_2-MMLA43882",
-          "99932089-AMLA_32089_1": "99932089-AMLA_32089_1-MMLA44806"
-        },
-        "info": "iPhone 6 16GB"
-      },
-      {
-        "description": {
-          "hints": [
-            {
-              "text": "El nuevo iPhone 6 Plus 16GB llegó a MercadoLibre! Compra ahora tu iPhone 6 Plus de 16GB, el último smartphone de Apple al mejor precio"
-            }
-          ],
-          "ending": ""
-        },
-        "key": {
-          "99932089-AMLA_32089_2": "99932089-AMLA_32089_2-MMLA43882",
-          "99932089-AMLA_32089_1": "99932089-AMLA_32089_1-MMLA44807"
-        },
-        "info": "iPhone 6 Plus 16GB"
-      },
-      {
-        "description": {
-          "hints": [
-            {
-              "text": "El nuevo iPhone 6 64GB llegó a MercadoLibre! Compra ahora tu iPhone 6 de 64GB, el último smartphone de Apple al mejor precio"
-            }
-          ],
-          "ending": ""
-        },
-        "key": {
-          "99932089-AMLA_32089_2": "99932089-AMLA_32089_2-MMLA43900",
-          "99932089-AMLA_32089_1": "99932089-AMLA_32089_1-MMLA44806"
-        },
-        "info": "iPhone 6 64GB"
-      },
-      {
-        "description": {
-          "hints": [
-            {
-              "text": "El nuevo iPhone 6 Plus 64GB llegó a MercadoLibre! Compra ahora tu iPhone 6 Plus de 64GB, el último smartphone de Apple al mejor precio"
-            }
-          ],
-          "ending": ""
-        },
-        "key": {
-          "99932089-AMLA_32089_2": "99932089-AMLA_32089_2-MMLA43900",
-          "99932089-AMLA_32089_1": "99932089-AMLA_32089_1-MMLA44807"
-        },
-        "info": "iPhone 6 Plus 64GB"
-      },
-      {
-        "description": {
-          "hints": [
-            {
-              "text": "El nuevo iPhone 6 128GB llegó a MercadoLibre! Compra ahora tu iPhone 6 de 128GB, el último smartphone de Apple al mejor precio"
-            }
-          ],
-          "ending": ""
-        },
-        "key": {
-          "99932089-AMLA_32089_2": "99932089-AMLA_32089_2-MMLA44808",
-          "99932089-AMLA_32089_1": "99932089-AMLA_32089_1-MMLA44806"
-        },
-        "info": "iPhone 6 128GB"
-      },
-      {
-        "description": {
-          "hints": [
-            {
-              "text": "El nuevo iPhone 6 Plus 128GB llegó a MercadoLibre! Compra ahora tu iPhone 6 Plus de 128GB, el último smartphone de Apple al mejor precio"
-            }
-          ],
-          "ending": ""
-        },
-        "key": {
-          "99932089-AMLA_32089_2": "99932089-AMLA_32089_2-MMLA44808",
-          "99932089-AMLA_32089_1": "99932089-AMLA_32089_1-MMLA44807"
-        },
-        "info": "iPhone 6 Plus 128GB"
-      }
-    ],
-    "info": "Config para MARCA -- iPhone "
-  },
-  "MLA1744": {
-    "local": {
-      "title": {
-        "suffix": ": 0km y Usados en Oferta"
-      }
-    },
-    "filters": [
-      {
-        "title": {
-          "suffix": ": Autos y Camionetas"
-        },
-        "categories": {
-          "MLA1744": {
-            "replacement": ""
-          }
-        },
-        "key": {
-          "9991744-AMLA_1744_1": "*"
-        }
-      },
-      {
-        "title": {
-          "suffix": " en Oferta"
-        },
-        "categories": {
-          "MLA1744": {
-            "replacement": ""
-          }
-        },
-        "key": {
-          "9991744-AMLA_1744_2": "*",
-          "9991744-AMLA_1744_1": "*"
-        }
-      }
-    ]
-  },
-  "MLA3519": {
-    "local": {
       "categories": {
-        "MLA1055": {
-          "replacement": "Celulares"
+        "MLU158309": {
+          "replacement": "Bermudas y Shorts de"
         }
       },
-      "h1": {
-        "first_category_level": 2
-      }
-    },
-    "info": "Config para MARCA -- Celulares + Samsung"
-  },
-  "MLA85808": {
-    "description": {
-      "hints": [
-        {
-          "prefix": "Más de ",
-          "suffix": " GPS TomTom Via 1430, 1530, 1600, Start y XXL / XL310, XL355, Live y otros! Compra tu GPS TomTom con mapas y radares actualizados",
-          "variable": "result_count"
-        }
-      ]
-    },
-    "categories": {
-      "MLA8531": {
-        "replacement": "tu auto",
-        "connector": "para"
-      },
-      "MLA85808": {
-        "replacement": "GPS TomTom",
-        "connector": ""
-      },
-      "MLA49337": {
-        "replacement": "",
-        "connector": ""
-      }
-    },
-    "h1": {
-      "first_category_level": 3
-    }
-  },
-  "MLA1002": {
-    "child": {
-      "title": {
-        "suffix": " al mejor precio"
-      },
-      "category_order": "ascendent",
-      "first_category_level": 4,
       "h1": {
         "autogenerated": false
       }
     },
+    "info": "Config para Bermudas y Shorts"
+  },
+  "MLU158423": {
     "filters": [
       {
-        "title": {
-          "prefix": "TVs "
+        "categories": {
+          "MLU158423": {
+            "replacement": "Vestidos de"
+          }
         },
-        "h1": {
-          "prefix": "TVs "
-        },
+        "first_category_level": 3,
         "key": {
-          "9991002-AMLA_1002_2": "*",
-          "9991002-AMLA_1002_3": "*"
+          "999158423-AMLU_158423_1": "*"
         },
-        "info": "Filtro por Marca + Pulgadas"
+        "info": "Config para Generos"
       },
       {
-        "title": {
-          "prefix": "TVs "
-        },
-        "h1": {
-          "prefix": "TVs "
+        "metacategories": {
+          "order": [
+            "999158423-AMLU_158423_2",
+            "999158423-AMLU_158423_1",
+            "999158423-AMLU_158423_3"
+          ],
+          "999158423-AMLU_158423_1": {
+            "replacement": "para Mujer"
+          }
         },
         "key": {
-          "9991002-AMLA_1002_2": "*"
+          "999158423-AMLU_158423_1": "999158423-AMLU_158423_1-MMLU49202",
+          "999158423-AMLU_158423_2": "*"
         },
-        "info": "Filtro por Pulgadas"
+        "info": "Config para Mujer"
       },
       {
-        "title": {
-          "prefix": "TVs "
-        },
-        "h1": {
-          "prefix": "TVs "
+        "metacategories": {
+          "order": [
+            "999158423-AMLU_158423_2",
+            "999158423-AMLU_158423_1",
+            "999158423-AMLU_158423_3"
+          ],
+          "999158423-AMLU_158423_1": {
+            "replacement": "para Niñas"
+          }
         },
         "key": {
-          "9991002-AMLA_1002_3": "*"
+          "999158423-AMLU_158423_1": "999158423-AMLU_158423_1-MMLU49203",
+          "999158423-AMLU_158423_2": "*"
         },
-        "info": "Filtro por Marcas"
+        "info": "Config para Niñas"
       }
     ],
-    "info": "TVs, LCDs, LEDs y Plasmas"
+    "info": "Config para Vestidos"
   },
-  "MLA3515": {
-    "local": {
-      "categories": {
-        "MLA1055": {
-          "replacement": "Celulares"
+  "MLU158400": {
+    "child": {
+      "category_order": "ascendent",
+      "first_category_level": 4
+    },
+    "info": "Config para Ropa Interior y de Dormir"
+  },
+  "MLU116896": {
+    "filters": [
+      {
+        "categories": {
+          "MLU116896": {
+            "replacement": "Championes de"
+          }
+        },
+        "key": {
+          "999116896-AMLU_116896_1": "*"
+        },
+        "info": "Config para Genero"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116896-AMLU_116896_3",
+            "999116896-AMLU_116896_2",
+            "999116896-AMLU_116896_1"
+          ],
+          "999116896-AMLU_116896_1": {
+            "replacement": "de Hombre"
+          }
+        },
+        "first_category_level": 4,
+        "h1": {
+          "autogenerated": false
+        },
+        "key": {
+          "999116896-AMLU_116896_2": "*",
+          "999116896-AMLU_116896_1": "999116896-AMLU_116896_1-MMLU49393"
+        },
+        "info": "Config para Hombre 3 atributos"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116896-AMLU_116896_2",
+            "999116896-AMLU_116896_1",
+            "999116896-AMLU_116896_3"
+          ],
+          "999116896-AMLU_116896_1": {
+            "replacement": "de Mujer"
+          }
+        },
+        "first_category_level": 4,
+        "key": {
+          "999116896-AMLU_116896_2": "*",
+          "999116896-AMLU_116896_1": "999116896-AMLU_116896_1-MMLU49416"
+        },
+        "info": "Config para Mujer"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116896-AMLU_116896_2",
+            "999116896-AMLU_116896_1",
+            "999116896-AMLU_116896_3"
+          ],
+          "999116896-AMLU_116896_1": {
+            "replacement": "de Niñas"
+          }
+        },
+        "first_category_level": 4,
+        "key": {
+          "999116896-AMLU_116896_2": "*",
+          "999116896-AMLU_116896_1": "999116896-AMLU_116896_1-MMLU49417"
+        },
+        "info": "Config para Niñas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116896-AMLU_116896_2",
+            "999116896-AMLU_116896_1",
+            "999116896-AMLU_116896_3"
+          ],
+          "999116896-AMLU_116896_1": {
+            "replacement": "de Niños"
+          }
+        },
+        "first_category_level": 4,
+        "key": {
+          "999116896-AMLU_116896_2": "*",
+          "999116896-AMLU_116896_1": "999116896-AMLU_116896_1-MMLU49418"
+        },
+        "info": "Config para Niños"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116896-AMLU_116896_3",
+            "999116896-AMLU_116896_2",
+            "999116896-AMLU_116896_1"
+          ],
+          "999116896-AMLU_116896_1": {
+            "replacement": "de Hombre"
+          }
+        },
+        "first_category_level": 4,
+        "key": {
+          "999116896-AMLU_116896_2": "*",
+          "999116896-AMLU_116896_1": "999116896-AMLU_116896_1-MMLU49393",
+          "999116896-AMLU_116896_3": "*"
+        },
+        "info": "Config Hombre 3atributos"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116896-AMLU_116896_3",
+            "999116896-AMLU_116896_2",
+            "999116896-AMLU_116896_1"
+          ],
+          "999116896-AMLU_116896_1": {
+            "replacement": "de Mujer"
+          }
+        },
+        "first_category_level": 4,
+        "key": {
+          "999116896-AMLU_116896_2": "*",
+          "999116896-AMLU_116896_1": "999116896-AMLU_116896_1-MMLU49416",
+          "999116896-AMLU_116896_3": "*"
+        },
+        "info": "Config para Mujer 3atributos"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116896-AMLU_116896_3",
+            "999116896-AMLU_116896_2",
+            "999116896-AMLU_116896_1"
+          ],
+          "999116896-AMLU_116896_1": {
+            "replacement": "de Niñas"
+          }
+        },
+        "first_category_level": 4,
+        "key": {
+          "999116896-AMLU_116896_2": "*",
+          "999116896-AMLU_116896_1": "999116896-AMLU_116896_1-MMLU49417",
+          "999116896-AMLU_116896_3": "*"
+        },
+        "info": "Config para Niñas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116896-AMLU_116896_3",
+            "999116896-AMLU_116896_2",
+            "999116896-AMLU_116896_1"
+          ],
+          "999116896-AMLU_116896_1": {
+            "replacement": "de Niños"
+          }
+        },
+        "first_category_level": 4,
+        "key": {
+          "999116896-AMLU_116896_2": "*",
+          "999116896-AMLU_116896_1": "999116896-AMLU_116896_1-MMLU49418",
+          "999116896-AMLU_116896_3": "*"
+        },
+        "info": "Config para Niños"
+      }
+    ],
+    "info": "Config para Championes"
+  },
+  "MLU116895": {
+    "filters": [
+      {
+        "categories": {
+          "MLU116895": {
+            "replacement": "Zapatos y Sandalias de"
+          }
+        },
+        "key": {
+          "999116895-AMLU_116895_1": "*"
+        },
+        "info": "Config para Genero"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116895-AMLU_116895_2",
+            "999116895-AMLU_116895_1"
+          ],
+          "999116895-AMLU_116895_1": {
+            "replacement": "de Hombre"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999116895-AMLU_116895_1": "999116895-AMLU_116895_1-MMLU49253",
+          "999116895-AMLU_116895_2": "*"
+        },
+        "info": "Config para Hombre"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116895-AMLU_116895_2",
+            "999116895-AMLU_116895_1"
+          ],
+          "999116895-AMLU_116895_1": {
+            "replacement": "de Mujer"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999116895-AMLU_116895_1": "999116895-AMLU_116895_1-MMLU49254",
+          "999116895-AMLU_116895_2": "*"
+        },
+        "info": "Config para Mujer"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116895-AMLU_116895_2",
+            "999116895-AMLU_116895_1"
+          ],
+          "999116895-AMLU_116895_1": {
+            "replacement": "de Niñas"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999116895-AMLU_116895_1": "999116895-AMLU_116895_1-MMLU49255",
+          "999116895-AMLU_116895_2": "*"
+        },
+        "info": "Config para Niñas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999116895-AMLU_116895_2",
+            "999116895-AMLU_116895_1"
+          ],
+          "999116895-AMLU_116895_1": {
+            "replacement": "de Niños"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999116895-AMLU_116895_1": "999116895-AMLU_116895_1-MMLU49256",
+          "999116895-AMLU_116895_2": "*"
+        },
+        "info": "Config para Niños"
+      }
+    ],
+    "info": "Config para Zapatos y Sandalias"
+  },
+  "MLU158341": {
+    "filters": [
+      {
+        "categories": {
+          "MLU158341": {
+            "replacement": "Carteras, Bolsos y Valijas de"
+          }
+        },
+        "key": {
+          "999158341-AMLU_158341_1": "*"
         }
       },
-      "h1": {
-        "first_category_level": 2
+      {
+        "first_category_level": 5,
+        "key": {
+          "999158341-AMLU_158341_2": "*"
+        },
+        "info": "Config para Tipo"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158341-AMLU_158341_2",
+            "999158341-AMLU_158341_1"
+          ],
+          "999158341-AMLU_158341_1": {
+            "replacement": "de Mujer"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158341-AMLU_158341_1": "999158341-AMLU_158341_1-MMLU49389",
+          "999158341-AMLU_158341_2": "*"
+        },
+        "info": "Config para Mujer"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158341-AMLU_158341_2",
+            "999158341-AMLU_158341_1"
+          ],
+          "999158341-AMLU_158341_1": {
+            "replacement": "de Niñas"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158341-AMLU_158341_1": "999158341-AMLU_158341_1-MMLU49391",
+          "999158341-AMLU_158341_2": "*"
+        },
+        "info": "Config para Niñas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158341-AMLU_158341_2",
+            "999158341-AMLU_158341_1"
+          ],
+          "999158341-AMLU_158341_1": {
+            "replacement": "de Niños"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158341-AMLU_158341_1": "999158341-AMLU_158341_1-MMLU49392",
+          "999158341-AMLU_158341_2": "*"
+        },
+        "info": "Configs de Niños"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158341-AMLU_158341_2",
+            "999158341-AMLU_158341_1"
+          ],
+          "999158341-AMLU_158341_1": {
+            "replacement": "de Hombre"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158341-AMLU_158341_1": "999158341-AMLU_158341_1-MMLU49382",
+          "999158341-AMLU_158341_2": "*"
+        },
+        "info": "Config para Hombre"
+      }
+    ],
+    "info": "Config para Carteras,Bolsos,Valijas"
+  },
+  "MLU158401": {
+    "child": {
+      "categories": {
+        "MLU158401": {
+          "replacement": "Ropa Interior de"
+        }
       }
     },
-    "info": "Config para MARCA -- Celulares + Sony"
+    "info": "Config para Ropa Interior"
+  },
+  "MLU158402": {
+    "child": {
+      "categories": {
+        "MLU158402": {
+          "replacement": "Ropa de Dormir para"
+        }
+      }
+    },
+    "info": "Config para Ropa de Dormir"
+  },
+  "MLU158325": {
+    "filters": [
+      {
+        "categories": {
+          "MLU158325": {
+            "replacement": "Camperas, Tapados y Trenchs de "
+          }
+        },
+        "key": {
+          "999158325-AMLU_158325_1": "*"
+        }
+      },
+      {
+        "metacategories": {
+          "partial_replacement": [
+            ""
+          ],
+          "order": [
+            "999158325-AMLU_158325_2",
+            "999158325-AMLU_158325_1"
+          ],
+          "999158325-AMLU_158325_2": {
+            "replacement": "Camperas de "
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158325-AMLU_158325_1": "*",
+          "999158325-AMLU_158325_2": "999158325-AMLU_158325_2-MMLU49374"
+        },
+        "info": "Config Camperas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158325-AMLU_158325_2",
+            "999158325-AMLU_158325_1"
+          ],
+          "999158325-AMLU_158325_2": {
+            "replacement": "Blazers de"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158325-AMLU_158325_1": "*",
+          "999158325-AMLU_158325_2": "999158325-AMLU_158325_2-MMLU49379"
+        },
+        "info": "Config Blazers"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158325-AMLU_158325_2",
+            "999158325-AMLU_158325_1"
+          ],
+          "999158325-AMLU_158325_2": {
+            "replacement": "Impermeables y Trenchs de"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158325-AMLU_158325_1": "*",
+          "999158325-AMLU_158325_2": "999158325-AMLU_158325_2-MMLU49375"
+        },
+        "info": "Configs Impermeables y Trenchs"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158325-AMLU_158325_2",
+            "999158325-AMLU_158325_1"
+          ],
+          "999158325-AMLU_158325_1": {
+            "replacement": "Tapados de"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158325-AMLU_158325_1": "*",
+          "999158325-AMLU_158325_2": "999158325-AMLU_158325_2-MMLU49377"
+        },
+        "info": "Config para Tapados"
+      }
+    ],
+    "info": "Configs para Camperas, Tapados y Trenchs"
+  },
+  "MLU158427": {
+    "child": {
+      "categories": {
+        "MLU158427": {
+          "replacement": "Lotes de "
+        }
+      }
+    },
+    "info": "Config para Lotes"
+  },
+  "MLU158424": {
+    "filters": [
+      {
+        "key": {
+          "999158424-AMLU_158424_1": "*"
+        },
+        "info": "Config para Genero"
+      }
+    ],
+    "info": "Config para Polleras"
+  },
+  "MLU158407": {
+    "filters": [
+      {
+        "categories": {
+          "MLU158407": {
+            "replacement": "Sweaters, Chalecos y Blazers de"
+          }
+        },
+        "first_category_level": 3,
+        "key": {
+          "999158407-AMLU_158407_1": "*"
+        },
+        "info": "Config para Generos"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158407-AMLU_158407_2",
+            "999158407-AMLU_158407_1"
+          ],
+          "999158407-AMLU_158407_1": {
+            "replacement": "de Hombre"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158407-AMLU_158407_2": "*",
+          "999158407-AMLU_158407_1": "999158407-AMLU_158407_1-MMLU49454"
+        },
+        "info": "Config para Hombre"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158407-AMLU_158407_2",
+            "999158407-AMLU_158407_1"
+          ],
+          "999158407-AMLU_158407_1": {
+            "replacement": "de Mujer"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158407-AMLU_158407_2": "*",
+          "999158407-AMLU_158407_1": "999158407-AMLU_158407_1-MMLU49459"
+        },
+        "info": "Config para Mujer"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158407-AMLU_158407_2",
+            "999158407-AMLU_158407_1"
+          ],
+          "999158407-AMLU_158407_1": {
+            "replacement": "de Niñas"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158407-AMLU_158407_2": "*",
+          "999158407-AMLU_158407_1": "999158407-AMLU_158407_1-MMLU49461"
+        },
+        "info": "Config de Niñas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158407-AMLU_158407_2",
+            "999158407-AMLU_158407_1"
+          ],
+          "999158407-AMLU_158407_1": {
+            "replacement": "de Niños"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158407-AMLU_158407_2": "*",
+          "999158407-AMLU_158407_1": "999158407-AMLU_158407_1-MMLU49462"
+        },
+        "info": "Config de Niños"
+      }
+    ],
+    "info": "Config para Swaters,Chalecos y Blazers"
+  },
+  "MLU158696": {
+    "child": {
+      "categories": {
+        "MLU158696": {
+          "replacement": "Ropa de Bebe para"
+        }
+      }
+    },
+    "info": "Config para Roba de Bebe"
+  },
+  "MLU158378": {
+    "filters": [
+      {
+        "categories": {
+          "MLU158378": {
+            "replacement": "Ropa Deportiva de"
+          }
+        },
+        "first_category_level": 4,
+        "key": {
+          "999158378-AMLU_158378_1": "*"
+        }
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158378-AMLU_158378_2",
+            "999158378-AMLU_158378_1"
+          ],
+          "999158378-AMLU_158378_1": {
+            "replacement": "de Hombre"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158378-AMLU_158378_1": "999158378-AMLU_158378_1-MMLU49432",
+          "999158378-AMLU_158378_2": "*"
+        },
+        "info": "Config para Hombre"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158378-AMLU_158378_2",
+            "999158378-AMLU_158378_1"
+          ],
+          "999158378-AMLU_158378_1": {
+            "replacement": "de Mujer"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158378-AMLU_158378_1": "999158378-AMLU_158378_1-MMLU49443",
+          "999158378-AMLU_158378_2": "*"
+        },
+        "info": "Config de Mujer"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158378-AMLU_158378_2",
+            "999158378-AMLU_158378_1"
+          ],
+          "999158378-AMLU_158378_1": {
+            "replacement": "de Niñas"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158378-AMLU_158378_1": "999158378-AMLU_158378_1-MMLU49444",
+          "999158378-AMLU_158378_2": "*"
+        },
+        "info": "Config de Niñas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158378-AMLU_158378_2",
+            "999158378-AMLU_158378_1"
+          ],
+          "999158378-AMLU_158378_1": {
+            "replacement": "de Niños"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158378-AMLU_158378_1": "999158378-AMLU_158378_1-MMLU49445",
+          "999158378-AMLU_158378_2": "*"
+        },
+        "info": "Config para Niños"
+      }
+    ],
+    "info": "Config para Ropa Deportiva"
+  },
+  "MLU1055": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Los mejores precios en  ",
+            "variable": "title"
+          },
+          {
+            "prefix": " están en MercadoLibre Uruguay. Compra ahora ",
+            "variable": "related_searches"
+          }
+        ],
+        "attributes": {
+          "state": {
+            "replacement": "",
+            "connector": ""
+          }
+        },
+        "ending": ""
+      },
+      "categories": {
+        "MLU1055": {
+          "replacement": "Celulares "
+        }
+      }
+    },
+    "L2-goal-desc": "Los mejores precios en Teléfonos Celulares están en Mercadolibre Uruguay. Todas las marcas y modelos como Galaxy S4, Iphone, Galaxy S3 Mini en panama, colon",
+    "L2-model-brand-key-goal-title": "Sacar del title el prefijo TELEFONOS CELULARES",
+    "L2-model-key-goal-desc": "Compra ahora tu Samsung S4 al mejor precio. Tenemos más de 4324 Telefonos Celulares Samsung S4 nuevos y usados con envío gratis en Mercadolibre Uruguay",
+    "L2-brand-key-goal-H1": "Celulares MARCA",
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Los mejores precios en ",
+            "suffix": " están en MercadoLibre Uruguay. ",
+            "variable": "title"
+          },
+          {
+            "prefix": "Todas las marcas y modelos ",
+            "variable": "available_filters"
+          }
+        ],
+        "ending": ""
+      }
+    },
+    "L2-brand-key-goal-desc": "Todos los modelos de L2 L3 al mejor precio: Relatad Searches y mucho mas, en Mercadolibre Uruguay",
+    "filters": [
+      {
+        "description": {
+          "hints": [
+            {
+              "prefix": "Todos los modelos de ",
+              "variable": "title"
+            },
+            {
+              "prefix": " al mejor precio: ",
+              "suffix": " y mucho más en MercadoLibre Uruguay.",
+              "variable": "related_searches"
+            }
+          ]
+        },
+        "categories": {
+          "MLU1055": {
+            "replacement": "Celulares "
+          }
+        },
+        "key": {
+          "9991055-AMLU_1055_1": "*"
+        }
+      }
+    ]
+  },
+  "MLU1039": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Los mejores precios en  ",
+            "variable": "title"
+          },
+          {
+            "prefix": " están en MercadoLibre Uruguay. Compra ahora ",
+            "variable": "related_searches"
+          }
+        ],
+        "attributes": {
+          "state": {
+            "replacement": "",
+            "connector": ""
+          }
+        },
+        "ending": ""
+      }
+    },
+    "L2-goal-desc": "Los mejores precios en _CATEG_ están en Mercadolibre Uruguay. Todas las marcas y modelos como _RS_ en _AVAILABLE_FILTERS_",
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Los mejores precios en ",
+            "suffix": " están en MercadoLibre Uruguay. ",
+            "variable": "title"
+          },
+          {
+            "prefix": "Todas las marcas y modelos ",
+            "variable": "available_filters"
+          }
+        ],
+        "ending": ""
+      }
+    }
+  },
+  "MLU158376": {
+    "child": {
+      "categories": {
+        "MLU158376": {
+          "replacement": "Remeras y Musculosas de"
+        }
+      }
+    },
+    "info": "Config de Remeras y Musculosas"
+  },
+  "MLU93526": {
+    "child": {
+      "category_order": "descendent",
+      "categories": {
+        "MLU93526": {
+          "connector": "de"
+        }
+      },
+      "first_category_level": 5
+    }
+  },
+  "MLU93504": {
+    "child": {
+      "category_order": "descendent",
+      "categories": {
+        "MLU93504": {
+          "connector": "de"
+        }
+      },
+      "first_category_level": 5
+    }
+  },
+  "MLU158690": {
+    "child": {
+      "categories": {
+        "MLU158690": {
+          "replacement": "Uniformes de"
+        }
+      }
+    },
+    "info": "Config para Uniformes"
+  },
+  "MLU158312": {
+    "child": {
+      "categories": {
+        "MLU158312": {
+          "replacement": "Buzos de"
+        }
+      },
+      "info": "Config para Buzos y Canguros "
+    }
+  },
+  "MLU158418": {
+    "filters": [
+      {
+        "categories": {
+          "MLU158418": {
+            "replacement": "Trajes de Baño para"
+          }
+        },
+        "first_category_level": 3,
+        "key": {
+          "999158418-AMLU_158418_1": "*"
+        },
+        "info": "Config para Generos"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158418-AMLU_158418_2",
+            "999158418-AMLU_158418_1"
+          ],
+          "999158418-AMLU_158418_1": {
+            "replacement": "de Hombre"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158418-AMLU_158418_1": "999158418-AMLU_158418_1-MMLU49923",
+          "999158418-AMLU_158418_2": "*"
+        },
+        "info": "Config para Hombre"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158418-AMLU_158418_2",
+            "999158418-AMLU_158418_1"
+          ],
+          "999158418-AMLU_158418_1": {
+            "replacement": "de Mujer"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158418-AMLU_158418_1": "999158418-AMLU_158418_1-MMLU49924",
+          "999158418-AMLU_158418_2": "*"
+        },
+        "info": "Config para Mujer"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158418-AMLU_158418_2",
+            "999158418-AMLU_158418_1"
+          ],
+          "999158418-AMLU_158418_1": {
+            "replacement": "de Niñas"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158418-AMLU_158418_1": "999158418-AMLU_158418_1-MMLU49925",
+          "999158418-AMLU_158418_2": "*"
+        },
+        "info": "Config para Niñas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158418-AMLU_158418_2",
+            "999158418-AMLU_158418_1"
+          ],
+          "999158418-AMLU_158418_1": {
+            "replacement": "de Niños"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158418-AMLU_158418_1": "999158418-AMLU_158418_1-MMLU49926",
+          "999158418-AMLU_158418_2": "*"
+        },
+        "info": "Config para Niños"
+      }
+    ],
+    "info": "Config para Trajes de Baño"
+  },
+  "MLU158314": {
+    "filters": [
+      {
+        "categories": {
+          "MLU158314": {
+            "replacement": "Camisas, Chombas y Blusas de "
+          }
+        },
+        "key": {
+          "999158314-AMLU_158314_1": "*"
+        }
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158314-AMLU_158314_2",
+            "999158314-AMLU_158314_1"
+          ],
+          "999158314-AMLU_158314_2": {
+            "replacement": "Camisas de"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158314-AMLU_158314_2": "999158314-AMLU_158314_2-MMLU49366",
+          "999158314-AMLU_158314_1": "*"
+        },
+        "info": "Config para Camisas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158314-AMLU_158314_2",
+            "999158314-AMLU_158314_1"
+          ],
+          "999158314-AMLU_158314_2": {
+            "replacement": "Chombas de"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158314-AMLU_158314_2": "999158314-AMLU_158314_2-MMLU49367",
+          "999158314-AMLU_158314_1": "*"
+        },
+        "info": "Config para Chombas"
+      },
+      {
+        "metacategories": {
+          "order": [
+            "999158314-AMLU_158314_2",
+            "999158314-AMLU_158314_1"
+          ],
+          "999158314-AMLU_158314_2": {
+            "replacement": "Blusas de"
+          }
+        },
+        "first_category_level": 5,
+        "key": {
+          "999158314-AMLU_158314_2": "999158314-AMLU_158314_2-MMLU49370",
+          "999158314-AMLU_158314_1": "*"
+        },
+        "info": "Config de Blusas"
+      }
+    ],
+    "info": "Config Camisas Chombas y Blusas"
+  },
+  "MLU1396": {
+    "child": {
+      "category_order": "ascendent",
+      "categories": {
+        "MLU1396": {
+          "replacement": "Ropa de Bebe para"
+        }
+      }
+    },
+    "info": "Config para Ropa de Bebe (L1 Bebes)"
+  },
+  "MLU158416": {
+    "child": {
+      "categories": {
+        "MLU158416": {
+          "replacement": "Trajes de"
+        }
+      }
+    },
+    "info": "Config de Trajes"
+  },
+  "MLU158433": {
+    "child": {
+      "categories": {
+        "MLU158433": {
+          "replacement": "Calzas, Leggins y Medias de"
+        }
+      },
+      "info": "Configs Calzas, Leggins y Medias"
+    }
+  },
+  "MLU93502": {
+    "categories": {
+      "MLU93502": {
+        "replacement": "Ropa de Embarazadas"
+      }
+    },
+    "info": "Config para Embarazadas"
   }
 }
