@@ -827,42 +827,12 @@
   "MLM": {
     "child": {
       "description": {
-        "hints": [
-          {
-            "prefix": "Oportunidad en ",
-            "variable": "title"
-          },
-          {
-            "prefix": "! Más de ",
-            "suffix": " ofertas a excelentes precios en MercadoLibre México",
-            "variable": "result_count"
-          },
-          {
-            "prefix": ": ",
-            "variable": "related_searches"
-          }
-        ],
         "ending": ""
       },
       "h1": "legacy"
     },
     "local": {
       "description": {
-        "hints": [
-          {
-            "prefix": "Oportunidad en ",
-            "variable": "title"
-          },
-          {
-            "prefix": "! Más de ",
-            "suffix": " ofertas a excelentes precios en MercadoLibre México",
-            "variable": "result_count"
-          },
-          {
-            "prefix": ": ",
-            "variable": "related_searches"
-          }
-        ],
         "ending": ""
       },
       "h1": "legacy"
@@ -887,15 +857,6 @@
         }
       },
       {
-        "h1": {
-          "suffix": "Los mejores artículos sólo en MercadoLibre México",
-          "ending": "h1"
-        },
-        "key": {
-          "99910743-AMLM_10743_3": "9991456-AMLB_1456_1-MMLB39417"
-        }
-      },
-      {
         "title": {
           "suffix": ": Los mejores micrófonos están en MercadoLibre México",
           "ending": ""
@@ -903,6 +864,15 @@
         "key": {
           "99910743-AMLM_10743_1": "*",
           "99910743-AMLM_10743_2": "*"
+        }
+      },
+      {
+        "h1": {
+          "suffix": "Los mejores artículos sólo en MercadoLibre México",
+          "ending": "h1"
+        },
+        "key": {
+          "99910743-AMLM_10743_3": "9991456-AMLB_1456_1-MMLB39417"
         }
       },
       {
