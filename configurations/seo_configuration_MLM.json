@@ -827,12 +827,42 @@
   "MLM": {
     "child": {
       "description": {
+        "hints": [
+          {
+            "prefix": "Oportunidad en ",
+            "variable": "title"
+          },
+          {
+            "prefix": "! Más de ",
+            "suffix": " ofertas a excelentes precios en MercadoLibre México",
+            "variable": "result_count"
+          },
+          {
+            "prefix": ": ",
+            "variable": "related_searches"
+          }
+        ],
         "ending": ""
       },
       "h1": "legacy"
     },
     "local": {
       "description": {
+        "hints": [
+          {
+            "prefix": "Oportunidad en ",
+            "variable": "title"
+          },
+          {
+            "prefix": "! Más de ",
+            "suffix": " ofertas a excelentes precios en MercadoLibre México",
+            "variable": "result_count"
+          },
+          {
+            "prefix": ": ",
+            "variable": "related_searches"
+          }
+        ],
         "ending": ""
       },
       "h1": "legacy"
