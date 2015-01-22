@@ -1,3 +1,1395 @@
 {
-PRUEBA MARU 2222222 úíóá
+  "MCO155484": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "info": "Config Oneplus MCO Celulares"
+  },
+  "MCO5571": {
+    "local": {
+      "h1": {
+        "first_category_level": 3
+      }
+    },
+    "filters": [
+      {
+        "title": {
+          "suffix": " al mejor precio "
+        },
+        "key": {
+          "9995571-AMCO_5571_1": "*",
+          "9995571-AMCO_5571_2": "*"
+        }
+      },
+      {
+        "title": {
+          "suffix": " al mejor precio "
+        },
+        "description": {
+          "hints": [
+            {
+              "prefix": "El ",
+              "suffix": " está en MercadoLibre!",
+              "variable": "title"
+            },
+            {
+              "prefix": " Compra ahora tu ",
+              "suffix": " al mejor precio.",
+              "variable": "related_searches"
+            }
+          ]
+        },
+        "first_category_level": 3,
+        "key": {
+          "9995571-AMCO_5571_1": "*"
+        }
+      }
+    ],
+    "info": "Config Alcatel One Touch MCO Celulares"
+  },
+  "MCO1540": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encontrá ",
+            "suffix": " publicaciones para ",
+            "variable": "result_count"
+          },
+          {
+            "variable": "title"
+          },
+          {
+            "variable": "available_filters"
+          }
+        ]
+      },
+      "h1": "legacy"
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encontrá ",
+            "suffix": " publicaciones para ",
+            "variable": "result_count"
+          },
+          {
+            "variable": "title"
+          },
+          {
+            "variable": "available_filters"
+          }
+        ]
+      },
+      "h1": "legacy"
+    }
+  },
+  "MCO3527": {
+    "local": {
+      "title": {
+        "suffix": " - Celulares y Smartphones"
+      },
+      "h1": {
+        "prefix": "Celulares de "
+      }
+    }
+  },
+  "MCO82072": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue tu ",
+            "suffix": " al mejor precio en MercadoLibre Colombia. Encuentra todos los modelos de iPad en un solo lugar.",
+            "variable": "title"
+          }
+        ]
+      },
+      "category_order": "ascendent",
+      "first_category_level": 4
+    },
+    "local": {
+      "title": {
+        "categories": {
+          "MCO82072": {
+            "replacement": "iPads"
+          }
+        }
+      },
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encuentra el ",
+            "suffix": " para ti al mejor precio en MercadoLibre Colombia. ",
+            "variable": "title"
+          },
+          {
+            "last_connector": ",",
+            "prefix": "Consigue los últimos modelos en un solo lugar:",
+            "variable": "available_metacategories",
+            "first_connector": " "
+          }
+        ]
+      },
+      "first_category_level": 3
+    },
+    "filters": [
+      {
+        "title": {
+          "metacategories": {
+            "99982072-AMCO_82072_2": {
+              "connector": "con"
+            }
+          }
+        },
+        "description": {
+          "metacategories": {
+            "99982072-AMCO_82072_2": {
+              "connector": "con"
+            }
+          }
+        },
+        "key": {
+          "99982072-AMCO_82072_1": "*",
+          "99982072-AMCO_82072_2": "*"
+        }
+      },
+      {
+        "metacategories": {
+          "99982072-AMCO_82072_2": {
+            "connector": "con"
+          }
+        },
+        "key": {
+          "99982072-AMCO_82072_2": "*"
+        }
+      },
+      {
+        "title": {
+          "metacategories": {
+            "99982072-AMCO_82072_2": {
+              "connector": "con"
+            }
+          }
+        },
+        "description": {
+          "metacategories": {
+            "99982072-AMCO_82072_2": {
+              "connector": "con"
+            }
+          }
+        },
+        "key": {
+          "99982072-AMCO_82072_3": "*",
+          "99982072-AMCO_82072_2": "*"
+        }
+      },
+      {
+        "metacategories": {
+          "99982072-AMCO_82072_2": {
+            "connector": "con"
+          }
+        },
+        "key": {
+          "99982072-AMCO_82072_1": "*",
+          "99982072-AMCO_82072_3": "*",
+          "99982072-AMCO_82072_2": "*"
+        }
+      }
+    ],
+    "info": "Config iPad"
+  },
+  "MCO1055": {
+    "child": {
+      "title": {
+        "category_order": "ascendent",
+        "first_category_level": 3,
+        "suffix": " al mejor precio "
+      },
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue los mejores precios de Celulares ",
+            "suffix": " en MercadoLibre. ",
+            "variable": "title"
+          },
+          {
+            "prefix": "Compra los últimos modelos:",
+            "suffix": " y más.",
+            "variable": "available_children",
+            "first_connector": " "
+          }
+        ],
+        "attributes": {
+          "state": {
+            "replacement": "",
+            "connector": ""
+          }
+        },
+        "first_category_level": 3,
+        "ending": ""
+      },
+      "h1": {
+        "category_order": "ascendent",
+        "first_category_level": 3
+      }
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Los mejores precios en ",
+            "suffix": " están en MercadoLibre Colombia. ",
+            "variable": "title"
+          },
+          {
+            "prefix": "Todas las marcas y modelos ",
+            "variable": "available_filters"
+          }
+        ],
+        "ending": ""
+      }
+    },
+    "info": "Config Celulares y Smartphones MCO"
+  },
+  "MCO1039": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Los mejores precios en  ",
+            "variable": "title"
+          },
+          {
+            "prefix": " están en MercadoLibre Colombia. Compra ahora ",
+            "variable": "related_searches"
+          }
+        ],
+        "attributes": {
+          "state": {
+            "replacement": "",
+            "connector": ""
+          }
+        },
+        "ending": ""
+      }
+    },
+    "L2-goal-desc": "Los mejores precios en _CATEG_ están en Mercadolibre Colombia. Todas las marcas y modelos como _RS_ en _AVAILABLE_FILTERS_",
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Los mejores precios en ",
+            "suffix": " están en MercadoLibre Colombia. ",
+            "variable": "title"
+          },
+          {
+            "prefix": "Todas las marcas y modelos ",
+            "variable": "available_filters"
+          }
+        ],
+        "ending": ""
+      }
+    }
+  },
+  "MCO32646": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue los mejores ",
+            "suffix": " en MercadoLibre Colombia.",
+            "variable": "title"
+          }
+        ],
+        "categories": {
+          "MCO32646": {
+            "replacement": "para tu perro",
+            "connector": " "
+          }
+        }
+      },
+      "category_order": "descendent",
+      "categories": {
+        "MCO32646": {
+          "replacement": "Perros",
+          "connector": "para"
+        }
+      },
+      "first_category_level": 3
+    },
+    "local": {
+      "title": {
+        "category_order": "descendent",
+        "categories": {
+          "MCO1072": {
+            "replacement": "para tu perro",
+            "connector": " "
+          }
+        },
+        "first_category_level": 2
+      },
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue los mejores ",
+            "suffix": " en MercadoLibre Colombia.",
+            "variable": "title"
+          }
+        ],
+        "categories": {
+          "MCO1072": {
+            "replacement": "tu perro",
+            "connector": "para"
+          }
+        }
+      },
+      "h1": {
+        "category_order": "descendent",
+        "categories": {
+          "MCO1072": {
+            "connector": "para"
+          }
+        },
+        "first_category_level": 2
+      }
+    },
+    "info": "Config Objetos de Adiestramiento"
+  },
+  "MCO156090": {
+    "child": {
+      "title": {
+        "categories": {
+          "MCO156090": {
+            "replacement": "tablets",
+            "connector": "para"
+          }
+        }
+      },
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encuentra los ",
+            "suffix": " que tu tablet necesita al mejor precio en MercadoLibre Colombia.",
+            "variable": "title"
+          }
+        ],
+        "categories": {
+          "MCO156090": {
+            "replacement": "tablet",
+            "connector": "para"
+          }
+        },
+        "first_category_level": 4
+      },
+      "category_order": "descendent",
+      "first_category_level": 3,
+      "h1": {
+        "categories": {
+          "MCO156090": {
+            "replacement": "tablet",
+            "connector": "para"
+          }
+        }
+      }
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "last_connector": ",",
+            "prefix": "Renueva tu tablet con los mejores repuestos al mejor precio en MercadoLibre Colombia.",
+            "variable": "available_children",
+            "first_connector": " "
+          }
+        ]
+      },
+      "category_order": "descendent",
+      "categories": {
+        "MCO156090": {
+          "connector": "para"
+        }
+      }
+    },
+    "info": "Config Repuestos para Tablets"
+  },
+  "MCO30151": {
+    "local": {
+      "title": {
+        "prefix": "Celulares "
+      }
+    },
+    "info": "Config HTC MCO Celulares"
+  },
+  "MCO155437": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "info": "Config Lenovo MCO Celulares"
+  },
+  "MCO112288": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "info": "Config Genericos MCO"
+  },
+  "MCO85779": {
+    "child": {
+      "title": {
+        "suffix": " para tablet"
+      },
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encuentra los accesorios que tu tablet necesita al mejor precio en MercadoLibre Colombia. Consigue ",
+            "variable": "title"
+          },
+          {
+            "last_connector": ",",
+            "suffix": " y de otras marcas!",
+            "variable": "available_categories",
+            "first_connector": " "
+          }
+        ]
+      },
+      "category_order": "descendent",
+      "first_category_level": 4,
+      "h1": {
+        "suffix": " para tablets"
+      }
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "last_connector": ",",
+            "prefix": "Renueva tu tablet con los mejores accesorios al mejor precio en MercadoLibre Colombia.",
+            "variable": "available_children",
+            "first_connector": " "
+          }
+        ]
+      },
+      "category_order": "descendent",
+      "categories": {
+        "MCO85779": {
+          "connector": "para"
+        }
+      },
+      "first_category_level": 2
+    },
+    "info": "Config Accesorios para Tablets"
+  },
+  "MCO155512": {
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "text": "Consigue la cama para tu perro a un excelente precio en MercadoLibre Colombia"
+          }
+        ]
+      }
+    },
+    "info": "Config Casas para Perros MCO"
+  },
+  "MCO112289": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "info": "Config Blu MCO Celulares"
+  },
+  "MCO155513": {
+    "description": {
+      "hints": [
+        {
+          "prefix": "Consigue los mejores juguetes ",
+          "suffix": " en MercadoLibre colombia.",
+          "variable": "title"
+        }
+      ],
+      "categories": {
+        "MCO155513": {
+          "replacement": "para tu perro",
+          "connector": " "
+        }
+      }
+    },
+    "category_order": "descendent",
+    "first_category_level": 3,
+    "info": "Config Juguetes para Perros"
+  },
+  "MCO155534": {
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue las mejores ",
+            "suffix": " en MercadoLibre Colombia",
+            "variable": "title"
+          }
+        ]
+      }
+    },
+    "info": "Config Estética y Cuidado Máquinas Peluqueras"
+  },
+  "MCO3507": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "filters": [
+      {
+        "title": {
+          "first_category_level": 5
+        },
+        "h1": {
+          "first_category_level": 5
+        },
+        "key": {
+          "9993507-AMCO_3507_2": "*",
+          "9993507-AMCO_3507_1": "9993507-AMCO_3507_1-MMCO45271"
+        },
+        "info": "Config Lumia MCO"
+      }
+    ],
+    "info": "Config Nokia MCO Celulares"
+  },
+  "MCO32089": {
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Los mejores precios en ",
+            "suffix": " están en MercadoLibre. ",
+            "variable": "title"
+          },
+          {
+            "prefix": "Compra los últimos modelos del mercado: ",
+            "suffix": " y más.",
+            "variable": "available_metacategories",
+            "first_connector": " "
+          }
+        ],
+        "ending": ""
+      }
+    },
+    "first_category_level": 3,
+    "filters": [
+      {
+        "description": {
+          "hints": [
+            {
+              "text": "El nuevo iPhone 6 está en MercadoLibre! Compra ahora tu iPhone 6, el último Smartphone de Apple al mejor precio."
+            }
+          ]
+        },
+        "key": {
+          "99932089-AMCO_32089_1": "99932089-AMCO_32089_1-MMCO45200"
+        },
+        "info": "Config iPhone 6"
+      }
+    ],
+    "info": "Config iPhone MCO Celulares"
+  },
+  "MCO9724": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "info": "Config BlackBerry MCO Celulares"
+  },
+  "MCO112286": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "info": "Config Zte MCO Celulares"
+  },
+  "MCO112285": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "info": "Config Huawei MCO Celulares"
+  },
+  "MCO1459": {
+    "description": {
+      "autogenerated": true,
+      "seller": {
+        "custom_name_field": "corporate_name",
+        "concat": true,
+        "intro": "Tu próxima propiedad en Inmobiliaria ",
+        "ending": ": "
+      },
+      "intro": "false"
+    },
+    "category_order": "ascendent",
+    "metacategories": {
+      "9991459-AMCO_1459_2": {
+        "connector": "en"
+      }
+    },
+    "first_category_level": 2,
+    "h1": {
+      "autogenerated": false
+    },
+    "seller": {
+      "custom_name_field": "corporate_name",
+      "concat": true,
+      "intro": "Inmobiliaria ",
+      "ending": " - "
+    },
+    "filters": [
+      {
+        "name": "solo operacion",
+        "prefix": "Inmuebles en ",
+        "key": {
+          "9991459-AMCO_1459_2": "*"
+        }
+      }
+    ]
+  },
+  "MCO82067": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Lleva tus libros, series y películas favoritas a todas partes. Consigue los últimos modelos de ",
+            "suffix": " en un solo lugar.",
+            "variable": "title"
+          }
+        ]
+      },
+      "category_order": "ascendent",
+      "first_category_level": 2,
+      "h1": {
+        "autogenerated": false,
+        "categories": {
+          "MCO82067": {
+            "replacement": "Tablet"
+          }
+        }
+      }
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "text": "Lleva tus libros, series y películas favoritas a todas partes. Consigue los últimos modelos de tablets en un solo lugar: iPad Air, iPad mini, Samsung Galaxy Tab 3 y más!"
+          }
+        ]
+      },
+      "first_category_level": 2
+    },
+    "ending": " en MercadoLibre Colombia",
+    "info": "Config Tablets MCO"
+  },
+  "MCO156110": {
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encuentra las ",
+            "suffix": " que tu tablet necesita al mejor precio en MercadoLibre Colombia.",
+            "variable": "title"
+          }
+        ],
+        "first_category_level": 4
+      }
+    },
+    "info": "Config Baterías Repuestos Tablets"
+  },
+  "MCO3519": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "info": "Config Samsung MCO Celulares"
+  },
+  "MCO7076": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "filters": [
+      {
+        "title": {
+          "first_category_level": 5
+        },
+        "h1": {
+          "first_category_level": 5
+        },
+        "key": {
+          "9997076-AMCO_7076_1": "9997076-AMCO_7076_1-MMCO45253",
+          "9997076-AMCO_7076_2": "*"
+        }
+      }
+    ],
+    "info": "Config LG MCO Celulares"
+  },
+  "MCO3503": {
+    "local": {
+      "prefix": "Celulares "
+    },
+    "filters": [
+      {
+        "title": {
+          "prefix": "Motorola "
+        },
+        "h1": {
+          "prefix": "Motorola "
+        },
+        "key": {
+          "9993503-AMCO_3503_1": "9993503-AMCO_3503_1-MMCO45296"
+        },
+        "info": "Config Motorola Moto MCO"
+      }
+    ],
+    "info": "Config Motorola MCO Celulares"
+  },
+  "MCO10168": {
+    "local": {
+      "prefrix": "Celulares "
+    },
+    "info": "Config Palm Treo MCO Celulares"
+  },
+  "MCO155538": {
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue las mejores ",
+            "suffix": " en MercadoLibre Colombia",
+            "variable": "title"
+          }
+        ]
+      }
+    },
+    "info": "Config Estetica y Cuidado Vitaminas"
+  },
+  "MCO155436": {
+    "local": {
+      "title": {
+        "prefix": "Celulares "
+      }
+    },
+    "info": "Config Avvio MCO Celulares"
+  },
+  "MCO112745": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Todos los modelos de Samsung encuentralos en un sólo lugar. Elige la tablet Samsung para ti: ",
+            "suffix": "",
+            "variable": "title"
+          }
+        ]
+      },
+      "category_order": "ascendent",
+      "first_category_level": 3
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "last_connector": ",",
+            "prefix": "Encuentra la tablet Samsung para tí al mejor precio en MercadoLibre Colombia. Consigue los últimos modelos en un solo lugar:",
+            "variable": "available_metacategories",
+            "first_connector": " "
+          }
+        ]
+      }
+    },
+    "info": "Config Tablets Samsung"
+  },
+  "MCO85773": {
+    "local": {
+      "h1": {
+        "categories": {
+          "MCO85773": {
+            "replacement": "Estuches"
+          }
+        }
+      }
+    },
+    "info": "Config Estuches y Protectores Tablets"
+  },
+  "MCO155516": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue los mejores ",
+            "suffix": " en MercadoLibre Colombia",
+            "variable": "title"
+          }
+        ]
+      },
+      "category_order": "descendent",
+      "categories": {
+        "MCO155516": {
+          "replacement": "Perros ",
+          "connector": "para"
+        }
+      },
+      "first_category_level": 3
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue los mejores ",
+            "suffix": " para el cuidado de tu perro en MercadoLibre Colombia:",
+            "variable": "title"
+          },
+          {
+            "last_connector": ",",
+            "suffix": " y más!",
+            "variable": "available_categories",
+            "first_connector": " "
+          }
+        ],
+        "categories": {
+          "MCO155516": {
+            "replacement": "productos"
+          }
+        }
+      },
+      "category_order": "descendent",
+      "first_category_level": 3,
+      "suffix": " para Perros"
+    },
+    "info": "Config Estetica y Cuidado para Perro"
+  },
+  "MCO5238": {
+    "local": {
+      "title": {
+        "prefix": "Compra Ya tu Celular ",
+        "categories": {
+          "MCO1055": {
+            "replacement": "Celular "
+          }
+        },
+        "suffix": ""
+      },
+      "h1": {
+        "prefix": "Celulares "
+      }
+    },
+    "filters": [
+      {
+        "title": {
+          "first_category_level": 5
+        },
+        "h1": {
+          "first_category_level": 5
+        },
+        "key": {
+          "9995238-AMCO_5238_1": "9995238-AMCO_5238_1-MMCO45280",
+          "9995238-AMCO_5238_2": "*"
+        },
+        "info": "Config Xperia MCO"
+      }
+    ],
+    "info": "Config Sony MCO Celulares"
+  },
+  "MCO155514": {
+    "child": {
+      "category_order": "descendent",
+      "categories": {
+        "MCO155514": {
+          "replacement": "Perros",
+          "connector": "para"
+        }
+      },
+      "first_category_level": 3
+    },
+    "local": {
+      "categories": {
+        "MCO155514": {
+          "connector": "para"
+        }
+      }
+    }
+  },
+  "MCO": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Oportunidad en ",
+            "variable": "title"
+          },
+          {
+            "prefix": "! Más de ",
+            "suffix": " ofertas a excelentes precios en MercadoLibre Colombia",
+            "variable": "result_count"
+          },
+          {
+            "prefix": ": ",
+            "variable": "related_searches"
+          }
+        ],
+        "ending": ""
+      },
+      "h1": "legacy"
+    },
+    "L2-goal-desc": "Oportunidad en _CATEG_! más de _COUNT_ ofertas a excelentes precios en MercadoLibre Colombia: _RS_",
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Oportunidad en ",
+            "variable": "title"
+          },
+          {
+            "prefix": "! Más de ",
+            "suffix": " ofertas a excelentes precios en MercadoLibre Colombia",
+            "variable": "result_count"
+          },
+          {
+            "prefix": ": ",
+            "variable": "related_searches"
+          }
+        ],
+        "ending": ""
+      },
+      "h1": "legacy"
+    }
+  },
+  "MCO1078": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue los mejores ",
+            "suffix": " en MercadoLibre Colombia.",
+            "variable": "title"
+          }
+        ],
+        "categories": {
+          "MCO1078": {
+            "replacement": "para tu perro",
+            "connector": " "
+          }
+        }
+      },
+      "category_order": "descendent",
+      "categories": {
+        "MCO1078": {
+          "replacement": "Perros",
+          "connector": "para"
+        }
+      },
+      "first_category_level": 3
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue los mejores ",
+            "suffix": " en MercadoLibre Colombia:",
+            "variable": "title"
+          },
+          {
+            "last_connector": ",",
+            "suffix": " y más!",
+            "variable": "available_categories",
+            "first_connector": " "
+          }
+        ],
+        "categories": {
+          "MCO1078": {
+            "replacement": "accesorios para tu perro",
+            "connector": " "
+          }
+        }
+      },
+      "first_category_level": 3
+    },
+    "ending": " en MercadoLibre Colombia",
+    "info": "Config Accesorios para Perros"
+  },
+  "MCO1077": {
+    "child": {
+      "title": {
+        "ending": " en MercadoLibre Colombia"
+      },
+      "description": {
+        "hints": [
+          {
+            "text": "Llévale a tu perro el mejor alimento, ",
+            "suffix": " a un excelente precio. Chequeá todas las marcas en un solo lugar.",
+            "variable": "title"
+          }
+        ]
+      },
+      "category_order": "ascendent",
+      "first_category_level": 3
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "text": "Llévale a tu perro el mejor alimento a un excelente precio. Chequeá todas las marcas en un solo lugar: Hill\"s, Royal Canin, Purina Pro Plan y más!"
+          }
+        ]
+      }
+    },
+    "filters": [
+      {
+        "category_order": "ascendent",
+        "first_category_level": 3,
+        "h1": {
+          "categories": {
+            "MCO1077": {
+              "replacement": " "
+            }
+          }
+        },
+        "key": {
+          "9991077-AMCO_1077_1": "*"
+        }
+      },
+      {
+        "title": {
+          "metacategories": {
+            "9991077-AMCO_1077_2": {
+              "connector": "de"
+            }
+          }
+        },
+        "category_order": "ascendent",
+        "first_category_level": 3,
+        "key": {
+          "9991077-AMCO_1077_2": "*"
+        }
+      },
+      {
+        "category_order": "ascendent",
+        "first_category_level": 3,
+        "key": {
+          "9991077-AMCO_1077_3": "*"
+        }
+      },
+      {
+        "title": {
+          "category_order": "ascendent",
+          "first_category_level": 3
+        },
+        "h1": {
+          "category_order": "ascendent",
+          "first_category_level": 5
+        },
+        "key": {
+          "9991077-AMCO_1077_1": "*",
+          "9991077-AMCO_1077_2": "*"
+        }
+      },
+      {
+        "title": {
+          "metacategories": {
+            "9991077-AMCO_1077_2": {
+              "connector": "de"
+            }
+          }
+        },
+        "metacategories": {
+          "order": [
+            "9991077-AMCO_1077_3",
+            "9991077-AMCO_1077_1",
+            "9991077-AMCO_1077_2"
+          ]
+        },
+        "category_order": "ascendent",
+        "key": {
+          "9991077-AMCO_1077_3": "*",
+          "9991077-AMCO_1077_2": "*"
+        }
+      },
+      {
+        "title": {
+          "metacategories": {
+            "order": [
+              "9991077-AMCO_1077_3",
+              "9991077-AMCO_1077_1",
+              "9991077-AMCO_1077_2"
+            ]
+          }
+        },
+        "h1": {
+          "category_order": "ascendent",
+          "first_category_level": 5
+        },
+        "key": {
+          "9991077-AMCO_1077_1": "*",
+          "9991077-AMCO_1077_3": "*"
+        }
+      },
+      {
+        "title": {
+          "metacategories": {
+            "9991077-AMCO_1077_3": {
+              "replacement": "Adultos"
+            }
+          }
+        },
+        "key": {
+          "9991077-AMCO_1077_1": "*",
+          "9991077-AMCO_1077_3": "9991077-AMCO_1077_3-MMCO50893"
+        }
+      },
+      {
+        "title": {
+          "metacategories": {
+            "9991077-AMCO_1077_3": {
+              "replacement": "Cachorros"
+            }
+          }
+        },
+        "key": {
+          "9991077-AMCO_1077_1": "*",
+          "9991077-AMCO_1077_3": "9991077-AMCO_1077_3-MMCO50892"
+        }
+      },
+      {
+        "h1": {
+          "text": "Purina",
+          "autogenerated": false
+        },
+        "key": {
+          "9991077-AMCO_1077_1": "9991077-AMCO_1077_1-MMCO34719"
+        }
+      },
+      {
+        "metacategories": {
+          "order": [
+            "9991077-AMCO_1077_1",
+            "9991077-AMCO_1077_3",
+            "9991077-AMCO_1077_2"
+          ]
+        },
+        "category_order": "ascendent",
+        "h1": {
+          "first_category_level": 5
+        },
+        "key": {
+          "9991077-AMCO_1077_1": "*",
+          "9991077-AMCO_1077_3": "*",
+          "9991077-AMCO_1077_2": "*"
+        }
+      }
+    ],
+    "info": "Config Comida para Perros"
+  },
+  "MCO155449": {
+    "local": {
+      "h1": {
+        "first_category_level": 3
+      }
+    },
+    "info": "Config iPro MCO Celulares"
+  },
+  "MCO155544": {
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue las mejores ",
+            "suffix": " en MercadoLibre Colombia",
+            "variable": "title"
+          }
+        ],
+        "categories": {
+          "MCO1078": {
+            "replacement": "para tu perro",
+            "connector": " "
+          }
+        }
+      }
+    }
+  },
+  "MCO74391": {
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "text": "Consigue la casa para tu perro a un excelente precio en MercadoLibre Colombia"
+          }
+        ]
+      }
+    },
+    "info": "Config Casas para Perros MCO"
+  },
+  "MCO1072": {
+    "child": {
+      "title": {
+        "ending": " en MercadoLibre Colombia"
+      },
+      "h1": {
+        "autogenerated": false
+      }
+    },
+    "local": {
+      "title": {
+        "ending": " en MercadoLibre Colombia"
+      },
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encuentra los ",
+            "suffix": " más lindos y divertidos en MercadoLibre Colombia. Tu mascota te está esperando!",
+            "variable": "title"
+          }
+        ]
+      }
+    },
+    "info": "Config Perros MCO"
+  },
+  "MCO1743": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encontrá más de ",
+            "suffix": " ",
+            "variable": "result_count"
+          },
+          {
+            "variable": "title"
+          },
+          {
+            "variable": "available_filters"
+          }
+        ]
+      },
+      "h1": "legacy"
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encontrá más de ",
+            "suffix": " ",
+            "variable": "result_count"
+          },
+          {
+            "variable": "title"
+          },
+          {
+            "variable": "available_filters"
+          }
+        ]
+      },
+      "h1": "legacy"
+    }
+  },
+  "MCO74394": {
+    "local": {
+      "category_order": "descendent",
+      "categories": {
+        "MCO74394": {
+          "replacement": "Otros Accesorios"
+        }
+      }
+    }
+  },
+  "MCO156089": {
+    "local": {
+      "title": {
+        "prefix": "Perros ",
+        "first_category_level": 4
+      },
+      "h1": {
+        "categories": {
+          "MCO156089": {
+            "replacement": "Dachshund"
+          }
+        },
+        "first_category_level": 4
+      }
+    },
+    "info": "Config Perros de Raza Dachshund"
+  },
+  "MCO1073": {
+    "child": {
+      "title": {
+        "prefix": "Perros ",
+        "first_category_level": 4,
+        "ending": " en MercadoLibre Colombia"
+      },
+      "description": {
+        "hints": [
+          {
+            "prefix": "Los ",
+            "suffix": " más lindos y divertidos están en MercadoLibre Colombia. ",
+            "variable": "title"
+          },
+          {
+            "prefix": "Más de ",
+            "suffix": " perritos te están esperando!",
+            "variable": "result_count"
+          }
+        ],
+        "first_category_level": 4
+      },
+      "h1": {
+        "first_category_level": 4
+      }
+    },
+    "local": {
+      "title": {
+        "ending": " en MercadoLibre Colombia"
+      },
+      "description": {
+        "hints": [
+          {
+            "prefix": "Encuentra los ",
+            "suffix": " más lindos y divertidos en MercadoLibre Colombia:",
+            "variable": "title"
+          },
+          {
+            "last_connector": ",",
+            "suffix": " y más.",
+            "variable": "available_categories",
+            "first_connector": " "
+          }
+        ]
+      }
+    },
+    "info": "Config Perros de Raza MCO"
+  },
+  "MCO5329": {
+    "child": {
+      "description": {
+        "hints": [
+          {
+            "prefix": "Consigue ",
+            "suffix": " a excelentes precios en un solo lugar.",
+            "variable": "title"
+          }
+        ],
+        "categories": {
+          "MCO5329": {
+            "replacement": "para tu perro ",
+            "connector": " "
+          }
+        },
+        "first_category_level": 3
+      },
+      "category_order": "descendent",
+      "categories": {
+        "MCO5329": {
+          "replacement": "Perros",
+          "connector": "para"
+        }
+      },
+      "first_category_level": 3
+    },
+    "local": {
+      "description": {
+        "hints": [
+          {
+            "text": "Consigue indumentaria para tu perro a excelentes precios en un solo lugar."
+          }
+        ]
+      }
+    },
+    "info": "Config Ropa para Perros"
+  }
 }
