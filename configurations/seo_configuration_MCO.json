@@ -957,7 +957,6 @@
     "filters": [
       {
         "category_order": "ascendent",
-        "first_category_level": 3,
         "h1": {
           "categories": {
             "MCO1077": {
@@ -965,6 +964,7 @@
             }
           }
         },
+        "first_category_level": 3,
         "key": {
           "9991077-AMCO_1077_1": "*"
         }

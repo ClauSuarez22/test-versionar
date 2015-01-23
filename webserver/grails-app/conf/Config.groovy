@@ -90,14 +90,3 @@ log4j = {
            'net.sf.ehcache.hibernate'
 }
 
-// Added by the JGit plugin:
-jgit.userInfoHandler = 'org.grails.plugins.jgit.UserInfoHandler'
-jgit.fallbackMap = [:]
-jgit.fallbackEmailDefault = 'clau.suarez22@gmail.com'
-jgit.fallbackUsername = 'ClauSuarez22'
-jgit.branch = 'master'
-jgit.gitRemoteURL = 'https://github.com/ClauSuarez22/test-versionar'
-jgit.http.gitRemotelogin = 'ClauSuarez22'
-jgit.http.gitRemotePassword = 'toti22021991'
-jgit.injectInto = ['Controller', 'Service','Domain']
-
