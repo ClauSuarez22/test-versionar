@@ -852,7 +852,7 @@
       },
       "h1": "legacy"
     },
-    "L2-goal-desc": "Oportunidad en _CATEG_! más de _COUNT_ ofertas a excelentes precios en MercadoLibre Colombia: _RS____",
+    "L2-goal-desc": "Oportunidad en _CATEG_! más de _COUNT_ ofertas a excelentes precios en MercadoLibre Colombia: _RS_",
     "local": {
       "description": {
         "hints": [
@@ -957,6 +957,7 @@
     "filters": [
       {
         "category_order": "ascendent",
+        "first_category_level": 3,
         "h1": {
           "categories": {
             "MCO1077": {
@@ -964,7 +965,6 @@
             }
           }
         },
-        "first_category_level": 3,
         "key": {
           "9991077-AMCO_1077_1": "*"
         }
