@@ -5,7 +5,7 @@
     },
     "categories": {
       "MLM106859": {
-        "connector": "ppaapragagmanaaaaaiaaaa"
+        "connector": "ppaaparagamgmanaaaaaiaaaa"
       }
     },
     "attributes": {
@@ -26,7 +26,7 @@
           "connector": "ejemplo de connector"
         },
         "CR-C": {
-          "replacement": "ejemplo de replacement1",
+          "replacement": "ejelmplo de replacement1",
           "connector": "ejemplo de connector1"
         }
       },
