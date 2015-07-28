@@ -15,16 +15,35 @@
   "MLA5571": {
     "filters": [
       {
-        "h1": {
+        "title": {
           "seller": {
-            "concat": true
+            "ending": "ejemplo filter 1"
+          }
+        },
+        "description": {
+          "hints": [
+            {
+              "suffix": "ejemplo hint 0 filter 1"
+            },
+            {
+              "prefix": "ejemplo hint 1 filter 1"
+            }
+          ]
+        },
+        "metacategories": {
+          "9995571-AMLA_5571_2": {
+            "replacement": "ejemplo de replacement filter 1"
+          }
+        },
+        "categories": {
+          "MLA1039": {
+            "replacement": "ejemplo replacement filter 1"
           }
         },
         "key": {
-          "9995571-AMLA_5571_2": "*",
-          "9995571-AMLA_5571_1": "*"
+          "9995571-AMLA_5571_2": "9995571-AMLA_5571_2-MMLA44310"
         },
-        "info": "ejemplo de info en filter 2"
+        "info": "ejemplo filter 1"
       },
       {
         "title": {
@@ -56,37 +75,6 @@
           "9995571-AMLA_5571_1": "9995571-AMLA_5571_1-MMLA43866"
         },
         "info": "info filter 0"
-      },
-      {
-        "title": {
-          "seller": {
-            "ending": "ejemplo filter 1"
-          }
-        },
-        "description": {
-          "hints": [
-            {
-              "suffix": "ejemplo hint 0 filter 1"
-            },
-            {
-              "prefix": "ejemplo hint 1 filter 1"
-            }
-          ]
-        },
-        "metacategories": {
-          "9995571-AMLA_5571_2": {
-            "replacement": "ejemplo de replacement filter 1"
-          }
-        },
-        "categories": {
-          "MLA1039": {
-            "replacement": "ejemplo replacement filter 1"
-          }
-        },
-        "key": {
-          "9995571-AMLA_5571_2": "9995571-AMLA_5571_2-MMLA44310"
-        },
-        "info": "ejemplo filter 1"
       }
     ],
     "info": "ejemplo info sin filter"
